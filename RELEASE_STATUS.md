@@ -6,7 +6,10 @@ withheld from public upload pending the data owner's redistribution confirmation
 Until those artifacts are uploaded, the saved-prediction rebuild requires the
 separate local release bundle and is not a self-contained public reproduction.
 
-Local verification: complete figure/statistics smoke rebuild with 10 bootstrap
+Local verification: 49 CSV tables compared with no differences in checked
+deterministic columns (absolute numeric tolerance 1e-9). Bootstrap uncertainty
+columns and historical path metadata were excluded from this smoke comparison.
+Complete figure/statistics smoke rebuild with 10 bootstrap
 draws; 4,325 saved model/test-set prediction sets loaded; seven selected evaluator
 contract tests passed; Python sources compile. No model was fitted. Publication
 bootstrap intervals were not replaced by smoke estimates. The full 2,000-draw

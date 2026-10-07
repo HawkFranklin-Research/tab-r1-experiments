@@ -27,7 +27,7 @@ import pandas as pd
 
 
 SCRIPT_DIR = Path(__file__).resolve().parent
-ROOT_DIR = SCRIPT_DIR.parents[1]
+ROOT_DIR = REPO
 PACKAGE_SRC = REPO / "ev_tabpfn/src"
 for path in (SCRIPT_DIR, PACKAGE_SRC, ROOT_DIR / "tabfm"):
     if path.exists() and str(path) not in sys.path:
