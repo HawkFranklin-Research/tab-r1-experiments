@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+scratch/
+plan.md
+*.pkl
+*.ubj
+*.pth
+*.ckpt
+*.zip
+*.tar.gz
+*.egg-info/
+results/tables/*.tex
+environment/*token*

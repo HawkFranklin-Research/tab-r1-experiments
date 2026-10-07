@@ -1,0 +1,9 @@
+# Observed local analysis environment, not a claim about historical cloud versions.
+numpy==2.4.6
+pandas==2.3.3
+scipy==1.16.3
+scikit-learn==1.9.1
+matplotlib==3.10.9
+seaborn==0.13.2
+scikit-survival==0.28.0
+pytest

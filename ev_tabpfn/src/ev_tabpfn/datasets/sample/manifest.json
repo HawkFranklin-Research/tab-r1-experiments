@@ -1,0 +1,29 @@
+{
+  "datasets": [
+    {
+      "name": "australian_sample",
+      "file": "australian_sample.csv",
+      "task": "binary",
+      "target_column": "target",
+      "rows": 60,
+      "source": "Excerpt from Satya TabPFN classification dataset collection"
+    },
+    {
+      "name": "car_sample",
+      "file": "car_sample.csv",
+      "task": "multiclass",
+      "target_column": "target",
+      "rows": 40,
+      "source": "Excerpt from Satya TabPFN classification dataset collection"
+    },
+    {
+      "name": "linear_relation_2d_sample",
+      "file": "linear_relation_2d_sample.csv",
+      "task": "regression",
+      "target_column": "y",
+      "rows": 80,
+      "source": "Excerpt from local dummy regression dataset used during Evaluate-TABPFN development"
+    }
+  ]
+}
+

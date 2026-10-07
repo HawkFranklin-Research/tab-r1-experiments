@@ -1,0 +1,26 @@
+{
+  "run_name": "single_binary_example",
+  "output_root": "outputs",
+  "seed": 42,
+  "run_reports": true,
+  "aggregate_after_run": false,
+  "fail_fast": false,
+  "models": {
+    "tabpfn": {"enabled": true},
+    "autogluon": {"enabled": true, "presets": "medium_quality", "time_limit": 60},
+    "catboost": {"enabled": true},
+    "xgboost": {"enabled": true},
+    "lightgbm": {"enabled": true},
+    "random_forest": {"enabled": true},
+    "logistic_regression": {"enabled": true}
+  },
+  "datasets": [
+    {
+      "name": "example_binary",
+      "path": "data.csv",
+      "target_column": "label",
+      "task": "binary"
+    }
+  ]
+}
+

@@ -1,0 +1,26 @@
+{
+  "run_name": "single_regression_example",
+  "output_root": "outputs",
+  "seed": 42,
+  "run_reports": true,
+  "aggregate_after_run": false,
+  "fail_fast": false,
+  "models": {
+    "tabpfn": {"enabled": true},
+    "autogluon": {"enabled": true, "presets": "medium_quality", "time_limit": 60},
+    "catboost": {"enabled": true},
+    "xgboost": {"enabled": true},
+    "lightgbm": {"enabled": true},
+    "random_forest": {"enabled": true},
+    "ridge": {"enabled": true}
+  },
+  "datasets": [
+    {
+      "name": "example_regression",
+      "path": "data.csv",
+      "target_column": "target",
+      "task": "regression"
+    }
+  ]
+}
+

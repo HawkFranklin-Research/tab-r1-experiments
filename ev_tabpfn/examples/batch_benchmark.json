@@ -1,0 +1,27 @@
+{
+  "run_name": "benchmark_recreation",
+  "output_root": "outputs_benchmark_recreation",
+  "seed": 42,
+  "run_reports": true,
+  "aggregate_after_run": true,
+  "fail_fast": false,
+  "models": {
+    "tabpfn": {"enabled": true},
+    "autogluon": {"enabled": true, "presets": "medium_quality", "time_limit": 300},
+    "catboost": {"enabled": true},
+    "xgboost": {"enabled": true},
+    "lightgbm": {"enabled": true},
+    "random_forest": {"enabled": true},
+    "logistic_regression": {"enabled": true}
+  },
+  "datasets": [
+    {
+      "name": "example_dataset_1",
+      "path": "/absolute/path/to/dataset_1.csv"
+    },
+    {
+      "name": "example_dataset_2",
+      "path": "/absolute/path/to/dataset_2.csv"
+    }
+  ]
+}

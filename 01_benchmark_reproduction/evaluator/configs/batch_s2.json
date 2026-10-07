@@ -1,0 +1,39 @@
+{
+  "batch_name": "batch_s2",
+  "output_root": "results/benchmark/refit_batch_s2",
+  "run_phase3": true,
+  "fail_fast": false,
+  "seed": 42,
+  "autogluon_presets": "medium_quality",
+  "autogluon_time_limit": 60,
+  "datasets": [
+    {
+      "name": "ada",
+      "path": "01_benchmark_reproduction/datasets/ada_dataset.csv"
+    },
+    {
+      "name": "australian",
+      "path": "01_benchmark_reproduction/datasets/australian_dataset.csv"
+    },
+    {
+      "name": "blood_transfusion",
+      "path": "01_benchmark_reproduction/datasets/blood_transfusion-service-center.csv"
+    },
+    {
+      "name": "car",
+      "path": "01_benchmark_reproduction/datasets/car.csv"
+    },
+    {
+      "name": "chum",
+      "path": "01_benchmark_reproduction/datasets/chum.csv"
+    },
+    {
+      "name": "cmc",
+      "path": "01_benchmark_reproduction/datasets/cmc.csv"
+    },
+    {
+      "name": "credit-g",
+      "path": "01_benchmark_reproduction/datasets/credit-g.csv"
+    }
+  ]
+}

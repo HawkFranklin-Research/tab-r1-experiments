@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ev-tabpfn"
+version = "0.2.0"
+description = "Portable TabPFN evaluation pipeline with baselines, artifacts, reports, CLI, Python API, and MCP tools."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+authors = [
+  {name = "Hawk Franklin Research"}
+]
+dependencies = [
+  "numpy",
+  "pandas",
+  "scipy",
+  "scikit-learn",
+  "matplotlib",
+  "seaborn",
+  "tabpfn",
+  "catboost",
+  "xgboost",
+  "lightgbm",
+  "autogluon.tabular",
+  "mcp",
+]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Intended Audience :: Science/Research",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+[project.scripts]
+ev-tabpfn = "ev_tabpfn.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+ev_tabpfn = ["datasets/sample/*.csv", "datasets/sample/*.json"]
