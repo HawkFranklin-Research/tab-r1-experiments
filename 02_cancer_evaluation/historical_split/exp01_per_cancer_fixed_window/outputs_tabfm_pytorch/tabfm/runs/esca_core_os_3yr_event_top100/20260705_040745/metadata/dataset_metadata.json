@@ -1,0 +1,45 @@
+{
+  "dataset": "ESCA_core_os_3yr_event_top100",
+  "dataset_path": "/home/prime/Documents/g3/cancer-os-exp/exp01_per_cancer_fixed_window/datasets/ESCA_core_os_3yr_event_top100.csv",
+  "metadata_path": "/home/prime/Documents/g3/cancer-os-exp/exp01_per_cancer_fixed_window/datasets/ESCA_core_os_3yr_event_top100_metadata.csv",
+  "task_type": "binary",
+  "target": "target",
+  "seed": 42,
+  "train_rows_cap": 1024,
+  "tabfm_backend": "pytorch",
+  "tabfm_ensemble": false,
+  "split_stats": {
+    "n_total": 86,
+    "n_train": 60,
+    "n_val": 13,
+    "n_test": 13,
+    "class_counts_total": {
+      "1": 68,
+      "0": 18
+    },
+    "class_counts_train": {
+      "1": 48,
+      "0": 12
+    },
+    "class_counts_val": {
+      "1": 10,
+      "0": 3
+    },
+    "class_counts_test": {
+      "1": 10,
+      "0": 3
+    },
+    "class_0_train": 12,
+    "class_1_train": 48,
+    "class_0_val": 3,
+    "class_1_val": 10,
+    "class_0_test": 3,
+    "class_1_test": 10,
+    "cancer_counts_total": {
+      "ESCA": 86
+    },
+    "test_cancer_counts": {
+      "ESCA": 13
+    }
+  }
+}

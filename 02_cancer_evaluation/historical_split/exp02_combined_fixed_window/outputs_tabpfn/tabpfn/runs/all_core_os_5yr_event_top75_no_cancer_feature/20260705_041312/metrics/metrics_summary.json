@@ -1,0 +1,45 @@
+{
+  "dataset_name": "ALL_core_os_5yr_event_top75_no_cancer_feature",
+  "rows": [
+    {
+      "model_name": "tabpfn_v2",
+      "version": "v2",
+      "task_type": "binary",
+      "status": "success",
+      "accuracy": 0.7159090909090909,
+      "f1": 0.7844827586206896,
+      "roc_auc": 0.713268519786389,
+      "log_loss": 0.5997049230784534
+    },
+    {
+      "model_name": "tabpfn_v2_5",
+      "version": "v2_5",
+      "task_type": "binary",
+      "status": "success",
+      "accuracy": 0.7159090909090909,
+      "f1": 0.7844827586206896,
+      "roc_auc": 0.6971792414076408,
+      "log_loss": 0.6011556585551072
+    },
+    {
+      "model_name": "tabpfn_v2_6",
+      "version": "v2_6",
+      "task_type": "binary",
+      "status": "success",
+      "accuracy": 0.7159090909090909,
+      "f1": 0.7844827586206896,
+      "roc_auc": 0.6951937559906888,
+      "log_loss": 0.6002798944000554
+    },
+    {
+      "model_name": "tabpfn_v3",
+      "version": "v3",
+      "task_type": "binary",
+      "status": "success",
+      "accuracy": 0.7159090909090909,
+      "f1": 0.7844827586206896,
+      "roc_auc": 0.7076543886074216,
+      "log_loss": 0.6017122791244244
+    }
+  ]
+}

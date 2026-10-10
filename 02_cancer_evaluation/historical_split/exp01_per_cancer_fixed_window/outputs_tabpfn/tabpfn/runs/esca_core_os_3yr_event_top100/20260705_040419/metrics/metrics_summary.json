@@ -1,0 +1,45 @@
+{
+  "dataset_name": "ESCA_core_os_3yr_event_top100",
+  "rows": [
+    {
+      "model_name": "tabpfn_v2",
+      "version": "v2",
+      "task_type": "binary",
+      "status": "success",
+      "accuracy": 0.7692307692307693,
+      "f1": 0.8695652173913043,
+      "roc_auc": 0.23333333333333334,
+      "log_loss": 0.5596449482388756
+    },
+    {
+      "model_name": "tabpfn_v2_5",
+      "version": "v2_5",
+      "task_type": "binary",
+      "status": "success",
+      "accuracy": 0.7692307692307693,
+      "f1": 0.8695652173913043,
+      "roc_auc": 0.23333333333333334,
+      "log_loss": 0.5735895105542087
+    },
+    {
+      "model_name": "tabpfn_v2_6",
+      "version": "v2_6",
+      "task_type": "binary",
+      "status": "success",
+      "accuracy": 0.7692307692307693,
+      "f1": 0.8695652173913043,
+      "roc_auc": 0.4,
+      "log_loss": 0.5781184718313622
+    },
+    {
+      "model_name": "tabpfn_v3",
+      "version": "v3",
+      "task_type": "binary",
+      "status": "success",
+      "accuracy": 0.7692307692307693,
+      "f1": 0.8695652173913043,
+      "roc_auc": 0.5333333333333333,
+      "log_loss": 0.5507041972118909
+    }
+  ]
+}

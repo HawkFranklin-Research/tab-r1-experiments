@@ -1,0 +1,45 @@
+{
+  "dataset_name": "ALL_core_extreme_os_death_lt3yr_survival_ge5yr_top75_no_cancer_feature",
+  "rows": [
+    {
+      "model_name": "tabpfn_v2",
+      "version": "v2",
+      "task_type": "binary",
+      "status": "success",
+      "accuracy": 0.7872340425531915,
+      "f1": 0.8404255319148937,
+      "roc_auc": 0.7967032967032966,
+      "log_loss": 0.4953122682580268
+    },
+    {
+      "model_name": "tabpfn_v2_5",
+      "version": "v2_5",
+      "task_type": "binary",
+      "status": "success",
+      "accuracy": 0.7872340425531915,
+      "f1": 0.8404255319148937,
+      "roc_auc": 0.8305494505494506,
+      "log_loss": 0.4850356258681522
+    },
+    {
+      "model_name": "tabpfn_v2_6",
+      "version": "v2_6",
+      "task_type": "binary",
+      "status": "success",
+      "accuracy": 0.7872340425531915,
+      "f1": 0.8404255319148937,
+      "roc_auc": 0.8215384615384617,
+      "log_loss": 0.48735245245775294
+    },
+    {
+      "model_name": "tabpfn_v3",
+      "version": "v3",
+      "task_type": "binary",
+      "status": "success",
+      "accuracy": 0.7872340425531915,
+      "f1": 0.8404255319148937,
+      "roc_auc": 0.8162637362637363,
+      "log_loss": 0.48649435526185847
+    }
+  ]
+}

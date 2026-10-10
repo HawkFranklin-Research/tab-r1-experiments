@@ -1,0 +1,10 @@
+dataset,model_name,cancer_type,n_test,class_0_test,class_1_test,sensitivity,specificity,balanced_accuracy,pr_auc
+ALL_core_os_3yr_event_top94_no_cancer_feature,tabfm_default,BRCA,77,68,9,0.0,1.0,0.5,0.3321944392469013
+ALL_core_os_3yr_event_top94_no_cancer_feature,tabfm_default,ESCA,12,1,11,1.0,0.0,0.5,0.9536042240587695
+ALL_core_os_3yr_event_top94_no_cancer_feature,tabfm_default,HNSCC,62,29,33,0.7878787878787878,0.3448275862068966,0.5663531870428422,0.5660932488935584
+ALL_core_os_3yr_event_top94_no_cancer_feature,tabfm_default,LSCC,47,27,20,0.9,0.18518518518518517,0.5425925925925926,0.4904861045065609
+ALL_core_os_3yr_event_top94_no_cancer_feature,tabfm_default,LUAD,49,20,29,0.0,1.0,0.5,0.5748831944752533
+ALL_core_os_5yr_event_top75_no_cancer_feature,tabfm_default,BRCA,53,35,18,0.0,1.0,0.5,0.412494945655323
+ALL_core_os_5yr_event_top75_no_cancer_feature,tabfm_default,HNSCC,37,8,29,1.0,0.0,0.5,0.7867663955114252
+ALL_core_os_5yr_event_top75_no_cancer_feature,tabfm_default,LSCC,51,16,35,1.0,0.0,0.5,0.7434333011261629
+ALL_core_os_5yr_event_top75_no_cancer_feature,tabfm_default,LUAD,35,8,27,1.0,0.0,0.5,0.713261003966118

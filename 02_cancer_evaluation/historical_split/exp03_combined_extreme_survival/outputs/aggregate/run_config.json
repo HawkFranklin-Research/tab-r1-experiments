@@ -1,0 +1,7 @@
+{
+  "merged_from": [
+    "/home/prime/Documents/g3/cancer-os-exp/exp03_combined_extreme_survival/outputs_tabpfn",
+    "/home/prime/Documents/g3/cancer-os-exp/exp03_combined_extreme_survival/outputs_tabfm_pytorch"
+  ],
+  "experiment": "exp03_combined_extreme_survival"
+}

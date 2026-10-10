@@ -1,0 +1,51 @@
+{
+  "dataset": "ALL_core_extreme_os_death_lt3yr_survival_ge5yr_top75_no_cancer_feature",
+  "dataset_path": "/home/prime/Documents/g3/cancer-os-exp/exp03_combined_extreme_survival/datasets/ALL_core_extreme_os_death_lt3yr_survival_ge5yr_top75_no_cancer_feature.csv",
+  "metadata_path": "/home/prime/Documents/g3/cancer-os-exp/exp03_combined_extreme_survival/datasets/ALL_core_extreme_os_death_lt3yr_survival_ge5yr_top75_no_cancer_feature_metadata.csv",
+  "task_type": "binary",
+  "target": "target",
+  "seed": 42,
+  "train_rows_cap": 1024,
+  "tabfm_backend": "pytorch",
+  "tabfm_ensemble": false,
+  "split_stats": {
+    "n_total": 937,
+    "n_train": 655,
+    "n_val": 141,
+    "n_test": 141,
+    "class_counts_total": {
+      "1": 608,
+      "0": 329
+    },
+    "class_counts_train": {
+      "1": 425,
+      "0": 230
+    },
+    "class_counts_val": {
+      "1": 92,
+      "0": 49
+    },
+    "class_counts_test": {
+      "1": 91,
+      "0": 50
+    },
+    "class_0_train": 230,
+    "class_1_train": 425,
+    "class_0_val": 49,
+    "class_1_val": 92,
+    "class_0_test": 50,
+    "class_1_test": 91,
+    "cancer_counts_total": {
+      "BRCA": 268,
+      "HNSCC": 244,
+      "LSCC": 222,
+      "LUAD": 203
+    },
+    "test_cancer_counts": {
+      "BRCA": 44,
+      "HNSCC": 36,
+      "LSCC": 35,
+      "LUAD": 26
+    }
+  }
+}

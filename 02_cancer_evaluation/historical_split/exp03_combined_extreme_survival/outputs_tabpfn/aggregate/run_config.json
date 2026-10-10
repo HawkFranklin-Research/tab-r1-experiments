@@ -1,0 +1,20 @@
+{
+  "created_at": "2026-07-05T04:19:26",
+  "manifest_path": "/home/prime/Documents/g3/cancer-os-exp/exp03_combined_extreme_survival/datasets/manifest.json",
+  "output_root": "/home/prime/Documents/g3/cancer-os-exp/exp03_combined_extreme_survival/outputs_tabpfn",
+  "package_src": "/home/prime/Documents/g3/tab-r1/package/src",
+  "seed": 42,
+  "train_rows_cap": 1024,
+  "models": [
+    "tabpfn"
+  ],
+  "tabpfn_versions": [
+    "v2",
+    "v2.5",
+    "v2.6",
+    "v3"
+  ],
+  "tabfm_backend": "jax",
+  "tabfm_ensemble": false,
+  "legacy_v1_root": null
+}

@@ -1,0 +1,45 @@
+{
+  "dataset": "LUAD_core_os_5yr_event_top100",
+  "dataset_path": "/home/prime/Documents/g3/cancer-os-exp/exp01_per_cancer_fixed_window/datasets/LUAD_core_os_5yr_event_top100.csv",
+  "metadata_path": "/home/prime/Documents/g3/cancer-os-exp/exp01_per_cancer_fixed_window/datasets/LUAD_core_os_5yr_event_top100_metadata.csv",
+  "task_type": "binary",
+  "target": "target",
+  "seed": 42,
+  "train_rows_cap": 1024,
+  "tabfm_backend": "pytorch",
+  "tabfm_ensemble": false,
+  "split_stats": {
+    "n_total": 251,
+    "n_train": 175,
+    "n_val": 38,
+    "n_test": 38,
+    "class_counts_total": {
+      "1": 194,
+      "0": 57
+    },
+    "class_counts_train": {
+      "1": 136,
+      "0": 39
+    },
+    "class_counts_val": {
+      "1": 29,
+      "0": 9
+    },
+    "class_counts_test": {
+      "1": 29,
+      "0": 9
+    },
+    "class_0_train": 39,
+    "class_1_train": 136,
+    "class_0_val": 9,
+    "class_1_val": 29,
+    "class_0_test": 9,
+    "class_1_test": 29,
+    "cancer_counts_total": {
+      "LUAD": 251
+    },
+    "test_cancer_counts": {
+      "LUAD": 38
+    }
+  }
+}

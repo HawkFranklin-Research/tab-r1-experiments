@@ -1,0 +1,45 @@
+{
+  "dataset_name": "LUAD_core_os_3yr_event_top100",
+  "rows": [
+    {
+      "model_name": "tabpfn_v2",
+      "version": "v2",
+      "task_type": "binary",
+      "status": "success",
+      "accuracy": 0.5,
+      "f1": 0.07692307692307693,
+      "roc_auc": 0.5104166666666667,
+      "log_loss": 0.692014621488083
+    },
+    {
+      "model_name": "tabpfn_v2_5",
+      "version": "v2_5",
+      "task_type": "binary",
+      "status": "success",
+      "accuracy": 0.5,
+      "f1": 0.2,
+      "roc_auc": 0.47135416666666674,
+      "log_loss": 0.693475062930362
+    },
+    {
+      "model_name": "tabpfn_v2_6",
+      "version": "v2_6",
+      "task_type": "binary",
+      "status": "success",
+      "accuracy": 0.4791666666666667,
+      "f1": 0.46808510638297873,
+      "roc_auc": 0.4678819444444445,
+      "log_loss": 0.700656877722293
+    },
+    {
+      "model_name": "tabpfn_v3",
+      "version": "v3",
+      "task_type": "binary",
+      "status": "success",
+      "accuracy": 0.4583333333333333,
+      "f1": 0.1875,
+      "roc_auc": 0.45833333333333337,
+      "log_loss": 0.6935198834437998
+    }
+  ]
+}

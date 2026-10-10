@@ -1,0 +1,13 @@
+{
+  "tabfm_default": {
+    "status": "success",
+    "raw_paths": {
+      "json": "/home/prime/Documents/g3/cancer-os-exp/exp02_combined_fixed_window/outputs_tabfm_pytorch/tabfm/runs/all_core_os_3yr_event_top94_no_cancer_feature/20260705_041338/raw/tabfm_default/raw_predictions.json",
+      "npz": "/home/prime/Documents/g3/cancer-os-exp/exp02_combined_fixed_window/outputs_tabfm_pytorch/tabfm/runs/all_core_os_3yr_event_top94_no_cancer_feature/20260705_041338/raw/tabfm_default/raw_predictions.npz"
+    },
+    "plot_files": [
+      "tabfm_default_confusion_matrix.png",
+      "tabfm_default_roc_curve.png"
+    ]
+  }
+}

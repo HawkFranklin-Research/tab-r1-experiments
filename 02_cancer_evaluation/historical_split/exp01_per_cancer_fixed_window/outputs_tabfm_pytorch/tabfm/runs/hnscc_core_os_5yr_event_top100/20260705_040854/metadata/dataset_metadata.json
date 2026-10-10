@@ -1,0 +1,45 @@
+{
+  "dataset": "HNSCC_core_os_5yr_event_top100",
+  "dataset_path": "/home/prime/Documents/g3/cancer-os-exp/exp01_per_cancer_fixed_window/datasets/HNSCC_core_os_5yr_event_top100.csv",
+  "metadata_path": "/home/prime/Documents/g3/cancer-os-exp/exp01_per_cancer_fixed_window/datasets/HNSCC_core_os_5yr_event_top100_metadata.csv",
+  "task_type": "binary",
+  "target": "target",
+  "seed": 42,
+  "train_rows_cap": 1024,
+  "tabfm_backend": "pytorch",
+  "tabfm_ensemble": false,
+  "split_stats": {
+    "n_total": 286,
+    "n_train": 200,
+    "n_val": 43,
+    "n_test": 43,
+    "class_counts_total": {
+      "1": 232,
+      "0": 54
+    },
+    "class_counts_train": {
+      "1": 162,
+      "0": 38
+    },
+    "class_counts_val": {
+      "1": 35,
+      "0": 8
+    },
+    "class_counts_test": {
+      "1": 35,
+      "0": 8
+    },
+    "class_0_train": 38,
+    "class_1_train": 162,
+    "class_0_val": 8,
+    "class_1_val": 35,
+    "class_0_test": 8,
+    "class_1_test": 35,
+    "cancer_counts_total": {
+      "HNSCC": 286
+    },
+    "test_cancer_counts": {
+      "HNSCC": 43
+    }
+  }
+}

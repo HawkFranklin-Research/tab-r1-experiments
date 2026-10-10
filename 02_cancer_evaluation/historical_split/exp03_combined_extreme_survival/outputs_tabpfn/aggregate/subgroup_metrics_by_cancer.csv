@@ -1,0 +1,17 @@
+dataset,model_name,cancer_type,n_test,class_0_test,class_1_test,sensitivity,specificity,balanced_accuracy,pr_auc
+ALL_core_extreme_os_death_lt3yr_survival_ge5yr_top75_no_cancer_feature,tabpfn_v2,BRCA,44,32,12,0.0,1.0,0.5,0.24455269064851498
+ALL_core_extreme_os_death_lt3yr_survival_ge5yr_top75_no_cancer_feature,tabpfn_v2,HNSCC,36,2,34,1.0,0.0,0.5,0.9662121096660256
+ALL_core_extreme_os_death_lt3yr_survival_ge5yr_top75_no_cancer_feature,tabpfn_v2,LSCC,35,10,25,1.0,0.0,0.5,0.8001015598750884
+ALL_core_extreme_os_death_lt3yr_survival_ge5yr_top75_no_cancer_feature,tabpfn_v2,LUAD,26,6,20,1.0,0.0,0.5,0.7716425318074935
+ALL_core_extreme_os_death_lt3yr_survival_ge5yr_top75_no_cancer_feature,tabpfn_v2_5,BRCA,44,32,12,0.0,1.0,0.5,0.48664989544299886
+ALL_core_extreme_os_death_lt3yr_survival_ge5yr_top75_no_cancer_feature,tabpfn_v2_5,HNSCC,36,2,34,1.0,0.0,0.5,0.9546612924913054
+ALL_core_extreme_os_death_lt3yr_survival_ge5yr_top75_no_cancer_feature,tabpfn_v2_5,LSCC,35,10,25,1.0,0.0,0.5,0.8206217063272051
+ALL_core_extreme_os_death_lt3yr_survival_ge5yr_top75_no_cancer_feature,tabpfn_v2_5,LUAD,26,6,20,1.0,0.0,0.5,0.7679040807273073
+ALL_core_extreme_os_death_lt3yr_survival_ge5yr_top75_no_cancer_feature,tabpfn_v2_6,BRCA,44,32,12,0.0,1.0,0.5,0.38704251520040994
+ALL_core_extreme_os_death_lt3yr_survival_ge5yr_top75_no_cancer_feature,tabpfn_v2_6,HNSCC,36,2,34,1.0,0.0,0.5,0.9565417569422673
+ALL_core_extreme_os_death_lt3yr_survival_ge5yr_top75_no_cancer_feature,tabpfn_v2_6,LSCC,35,10,25,1.0,0.0,0.5,0.8073491626603755
+ALL_core_extreme_os_death_lt3yr_survival_ge5yr_top75_no_cancer_feature,tabpfn_v2_6,LUAD,26,6,20,1.0,0.0,0.5,0.8108759314917446
+ALL_core_extreme_os_death_lt3yr_survival_ge5yr_top75_no_cancer_feature,tabpfn_v3,BRCA,44,32,12,0.0,1.0,0.5,0.310650476878547
+ALL_core_extreme_os_death_lt3yr_survival_ge5yr_top75_no_cancer_feature,tabpfn_v3,HNSCC,36,2,34,1.0,0.0,0.5,0.9624675475359135
+ALL_core_extreme_os_death_lt3yr_survival_ge5yr_top75_no_cancer_feature,tabpfn_v3,LSCC,35,10,25,1.0,0.0,0.5,0.8279789780951886
+ALL_core_extreme_os_death_lt3yr_survival_ge5yr_top75_no_cancer_feature,tabpfn_v3,LUAD,26,6,20,1.0,0.0,0.5,0.808681277386857

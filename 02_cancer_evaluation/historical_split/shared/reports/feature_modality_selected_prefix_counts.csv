@@ -1,0 +1,10 @@
+cancer,view,modality,count
+BRCA,core,rnaseq_gene,100
+ESCA,core,cnv_gistic,45
+ESCA,core,cnv_log2,31
+ESCA,core,methylation_gene,24
+HNSCC,core,cnv_gistic,10
+HNSCC,core,methylation_gene,90
+LSCC,core,cnv_gistic,34
+LSCC,core,cnv_log2,66
+LUAD,core,methylation_gene,100

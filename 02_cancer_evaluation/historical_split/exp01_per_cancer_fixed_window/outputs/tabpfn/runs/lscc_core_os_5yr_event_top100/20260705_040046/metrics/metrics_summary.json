@@ -1,0 +1,45 @@
+{
+  "dataset_name": "LSCC_core_os_5yr_event_top100",
+  "rows": [
+    {
+      "model_name": "tabpfn_v2",
+      "version": "v2",
+      "task_type": "binary",
+      "status": "success",
+      "accuracy": 0.6976744186046512,
+      "f1": 0.821917808219178,
+      "roc_auc": 0.5987179487179487,
+      "log_loss": 0.5955817330747546
+    },
+    {
+      "model_name": "tabpfn_v2_5",
+      "version": "v2_5",
+      "task_type": "binary",
+      "status": "success",
+      "accuracy": 0.6976744186046512,
+      "f1": 0.821917808219178,
+      "roc_auc": 0.5858974358974359,
+      "log_loss": 0.5959691010457367
+    },
+    {
+      "model_name": "tabpfn_v2_6",
+      "version": "v2_6",
+      "task_type": "binary",
+      "status": "success",
+      "accuracy": 0.627906976744186,
+      "f1": 0.7714285714285715,
+      "roc_auc": 0.5333333333333333,
+      "log_loss": 0.6180309746252834
+    },
+    {
+      "model_name": "tabpfn_v3",
+      "version": "v3",
+      "task_type": "binary",
+      "status": "success",
+      "accuracy": 0.6976744186046512,
+      "f1": 0.821917808219178,
+      "roc_auc": 0.6282051282051282,
+      "log_loss": 0.5938027891522828
+    }
+  ]
+}

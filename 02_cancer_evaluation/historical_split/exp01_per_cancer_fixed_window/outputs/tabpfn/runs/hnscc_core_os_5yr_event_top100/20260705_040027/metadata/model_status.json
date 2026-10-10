@@ -1,0 +1,47 @@
+{
+  "tabpfn_v2": {
+    "status": "success",
+    "plot_files": [
+      "tabpfn_v2_confusion_matrix.png",
+      "tabpfn_v2_roc_curve.png"
+    ],
+    "raw_files": {
+      "json": "/home/prime/Documents/g3/cancer-os-exp/exp01_per_cancer_fixed_window/outputs/tabpfn/runs/hnscc_core_os_5yr_event_top100/20260705_040027/raw/tabpfn_v2/raw_predictions.json",
+      "npz": "/home/prime/Documents/g3/cancer-os-exp/exp01_per_cancer_fixed_window/outputs/tabpfn/runs/hnscc_core_os_5yr_event_top100/20260705_040027/raw/tabpfn_v2/raw_predictions.npz"
+    }
+  },
+  "tabpfn_v2_5": {
+    "status": "success",
+    "plot_files": [
+      "tabpfn_v2_5_confusion_matrix.png",
+      "tabpfn_v2_5_roc_curve.png"
+    ],
+    "raw_files": {
+      "json": "/home/prime/Documents/g3/cancer-os-exp/exp01_per_cancer_fixed_window/outputs/tabpfn/runs/hnscc_core_os_5yr_event_top100/20260705_040027/raw/tabpfn_v2_5/raw_predictions.json",
+      "npz": "/home/prime/Documents/g3/cancer-os-exp/exp01_per_cancer_fixed_window/outputs/tabpfn/runs/hnscc_core_os_5yr_event_top100/20260705_040027/raw/tabpfn_v2_5/raw_predictions.npz"
+    }
+  },
+  "tabpfn_v2_6": {
+    "status": "success",
+    "plot_files": [
+      "tabpfn_v2_6_confusion_matrix.png",
+      "tabpfn_v2_6_roc_curve.png"
+    ],
+    "raw_files": {
+      "json": "/home/prime/Documents/g3/cancer-os-exp/exp01_per_cancer_fixed_window/outputs/tabpfn/runs/hnscc_core_os_5yr_event_top100/20260705_040027/raw/tabpfn_v2_6/raw_predictions.json",
+      "npz": "/home/prime/Documents/g3/cancer-os-exp/exp01_per_cancer_fixed_window/outputs/tabpfn/runs/hnscc_core_os_5yr_event_top100/20260705_040027/raw/tabpfn_v2_6/raw_predictions.npz"
+    }
+  },
+  "tabpfn_v3": {
+    "status": "success",
+    "plot_files": [
+      "tabpfn_v3_confusion_matrix.png",
+      "tabpfn_v3_roc_curve.png"
+    ],
+    "raw_files": {
+      "json": "/home/prime/Documents/g3/cancer-os-exp/exp01_per_cancer_fixed_window/outputs/tabpfn/runs/hnscc_core_os_5yr_event_top100/20260705_040027/raw/tabpfn_v3/raw_predictions.json",
+      "npz": "/home/prime/Documents/g3/cancer-os-exp/exp01_per_cancer_fixed_window/outputs/tabpfn/runs/hnscc_core_os_5yr_event_top100/20260705_040027/raw/tabpfn_v3/raw_predictions.npz"
+    }
+  },
+  "comparison_plot": "/home/prime/Documents/g3/cancer-os-exp/exp01_per_cancer_fixed_window/outputs/tabpfn/runs/hnscc_core_os_5yr_event_top100/20260705_040027/plots/generation_comparison_metrics.png"
+}

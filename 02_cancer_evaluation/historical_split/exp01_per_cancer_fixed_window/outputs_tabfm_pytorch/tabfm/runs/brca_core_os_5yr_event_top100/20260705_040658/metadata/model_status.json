@@ -1,0 +1,13 @@
+{
+  "tabfm_default": {
+    "status": "success",
+    "raw_paths": {
+      "json": "/home/prime/Documents/g3/cancer-os-exp/exp01_per_cancer_fixed_window/outputs_tabfm_pytorch/tabfm/runs/brca_core_os_5yr_event_top100/20260705_040658/raw/tabfm_default/raw_predictions.json",
+      "npz": "/home/prime/Documents/g3/cancer-os-exp/exp01_per_cancer_fixed_window/outputs_tabfm_pytorch/tabfm/runs/brca_core_os_5yr_event_top100/20260705_040658/raw/tabfm_default/raw_predictions.npz"
+    },
+    "plot_files": [
+      "tabfm_default_confusion_matrix.png",
+      "tabfm_default_roc_curve.png"
+    ]
+  }
+}

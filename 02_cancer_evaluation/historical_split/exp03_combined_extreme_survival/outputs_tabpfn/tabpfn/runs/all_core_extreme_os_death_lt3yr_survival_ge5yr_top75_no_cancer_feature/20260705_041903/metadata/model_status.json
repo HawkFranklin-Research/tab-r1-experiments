@@ -1,0 +1,47 @@
+{
+  "tabpfn_v2": {
+    "status": "success",
+    "plot_files": [
+      "tabpfn_v2_confusion_matrix.png",
+      "tabpfn_v2_roc_curve.png"
+    ],
+    "raw_files": {
+      "json": "/home/prime/Documents/g3/cancer-os-exp/exp03_combined_extreme_survival/outputs_tabpfn/tabpfn/runs/all_core_extreme_os_death_lt3yr_survival_ge5yr_top75_no_cancer_feature/20260705_041903/raw/tabpfn_v2/raw_predictions.json",
+      "npz": "/home/prime/Documents/g3/cancer-os-exp/exp03_combined_extreme_survival/outputs_tabpfn/tabpfn/runs/all_core_extreme_os_death_lt3yr_survival_ge5yr_top75_no_cancer_feature/20260705_041903/raw/tabpfn_v2/raw_predictions.npz"
+    }
+  },
+  "tabpfn_v2_5": {
+    "status": "success",
+    "plot_files": [
+      "tabpfn_v2_5_confusion_matrix.png",
+      "tabpfn_v2_5_roc_curve.png"
+    ],
+    "raw_files": {
+      "json": "/home/prime/Documents/g3/cancer-os-exp/exp03_combined_extreme_survival/outputs_tabpfn/tabpfn/runs/all_core_extreme_os_death_lt3yr_survival_ge5yr_top75_no_cancer_feature/20260705_041903/raw/tabpfn_v2_5/raw_predictions.json",
+      "npz": "/home/prime/Documents/g3/cancer-os-exp/exp03_combined_extreme_survival/outputs_tabpfn/tabpfn/runs/all_core_extreme_os_death_lt3yr_survival_ge5yr_top75_no_cancer_feature/20260705_041903/raw/tabpfn_v2_5/raw_predictions.npz"
+    }
+  },
+  "tabpfn_v2_6": {
+    "status": "success",
+    "plot_files": [
+      "tabpfn_v2_6_confusion_matrix.png",
+      "tabpfn_v2_6_roc_curve.png"
+    ],
+    "raw_files": {
+      "json": "/home/prime/Documents/g3/cancer-os-exp/exp03_combined_extreme_survival/outputs_tabpfn/tabpfn/runs/all_core_extreme_os_death_lt3yr_survival_ge5yr_top75_no_cancer_feature/20260705_041903/raw/tabpfn_v2_6/raw_predictions.json",
+      "npz": "/home/prime/Documents/g3/cancer-os-exp/exp03_combined_extreme_survival/outputs_tabpfn/tabpfn/runs/all_core_extreme_os_death_lt3yr_survival_ge5yr_top75_no_cancer_feature/20260705_041903/raw/tabpfn_v2_6/raw_predictions.npz"
+    }
+  },
+  "tabpfn_v3": {
+    "status": "success",
+    "plot_files": [
+      "tabpfn_v3_confusion_matrix.png",
+      "tabpfn_v3_roc_curve.png"
+    ],
+    "raw_files": {
+      "json": "/home/prime/Documents/g3/cancer-os-exp/exp03_combined_extreme_survival/outputs_tabpfn/tabpfn/runs/all_core_extreme_os_death_lt3yr_survival_ge5yr_top75_no_cancer_feature/20260705_041903/raw/tabpfn_v3/raw_predictions.json",
+      "npz": "/home/prime/Documents/g3/cancer-os-exp/exp03_combined_extreme_survival/outputs_tabpfn/tabpfn/runs/all_core_extreme_os_death_lt3yr_survival_ge5yr_top75_no_cancer_feature/20260705_041903/raw/tabpfn_v3/raw_predictions.npz"
+    }
+  },
+  "comparison_plot": "/home/prime/Documents/g3/cancer-os-exp/exp03_combined_extreme_survival/outputs_tabpfn/tabpfn/runs/all_core_extreme_os_death_lt3yr_survival_ge5yr_top75_no_cancer_feature/20260705_041903/plots/generation_comparison_metrics.png"
+}

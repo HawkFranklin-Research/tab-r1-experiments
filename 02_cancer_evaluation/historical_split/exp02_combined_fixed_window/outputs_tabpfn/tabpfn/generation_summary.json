@@ -1,0 +1,109 @@
+{
+  "counts": {
+    "datasets_total": 2,
+    "datasets_success": 2,
+    "datasets_failed": 0
+  },
+  "runs": [
+    {
+      "dataset": "ALL_core_os_3yr_event_top94_no_cancer_feature",
+      "status": "success",
+      "run_dir": "/home/prime/Documents/g3/cancer-os-exp/exp02_combined_fixed_window/outputs_tabpfn/tabpfn/runs/all_core_os_3yr_event_top94_no_cancer_feature/20260705_041239",
+      "rows": [
+        {
+          "model_name": "tabpfn_v2",
+          "version": "v2",
+          "task_type": "binary",
+          "status": "success",
+          "accuracy": 0.6356275303643725,
+          "f1": 0.5544554455445545,
+          "roc_auc": 0.7283299526707235,
+          "log_loss": 0.5700497307450201
+        },
+        {
+          "model_name": "tabpfn_v2_5",
+          "version": "v2_5",
+          "task_type": "binary",
+          "status": "success",
+          "accuracy": 0.6761133603238867,
+          "f1": 0.5652173913043478,
+          "roc_auc": 0.7427315753887762,
+          "log_loss": 0.5658191629937124
+        },
+        {
+          "model_name": "tabpfn_v2_6",
+          "version": "v2_6",
+          "task_type": "binary",
+          "status": "success",
+          "accuracy": 0.6477732793522267,
+          "f1": 0.5714285714285714,
+          "roc_auc": 0.7357674104124408,
+          "log_loss": 0.5680494490971473
+        },
+        {
+          "model_name": "tabpfn_v3",
+          "version": "v3",
+          "task_type": "binary",
+          "status": "success",
+          "accuracy": 0.6396761133603239,
+          "f1": 0.5615763546798029,
+          "roc_auc": 0.730764029749831,
+          "log_loss": 0.5678559577038507
+        }
+      ]
+    },
+    {
+      "dataset": "ALL_core_os_5yr_event_top75_no_cancer_feature",
+      "status": "success",
+      "run_dir": "/home/prime/Documents/g3/cancer-os-exp/exp02_combined_fixed_window/outputs_tabpfn/tabpfn/runs/all_core_os_5yr_event_top75_no_cancer_feature/20260705_041312",
+      "rows": [
+        {
+          "model_name": "tabpfn_v2",
+          "version": "v2",
+          "task_type": "binary",
+          "status": "success",
+          "accuracy": 0.7159090909090909,
+          "f1": 0.7844827586206896,
+          "roc_auc": 0.713268519786389,
+          "log_loss": 0.5997049230784534
+        },
+        {
+          "model_name": "tabpfn_v2_5",
+          "version": "v2_5",
+          "task_type": "binary",
+          "status": "success",
+          "accuracy": 0.7159090909090909,
+          "f1": 0.7844827586206896,
+          "roc_auc": 0.6971792414076408,
+          "log_loss": 0.6011556585551072
+        },
+        {
+          "model_name": "tabpfn_v2_6",
+          "version": "v2_6",
+          "task_type": "binary",
+          "status": "success",
+          "accuracy": 0.7159090909090909,
+          "f1": 0.7844827586206896,
+          "roc_auc": 0.6951937559906888,
+          "log_loss": 0.6002798944000554
+        },
+        {
+          "model_name": "tabpfn_v3",
+          "version": "v3",
+          "task_type": "binary",
+          "status": "success",
+          "accuracy": 0.7159090909090909,
+          "f1": 0.7844827586206896,
+          "roc_auc": 0.7076543886074216,
+          "log_loss": 0.6017122791244244
+        }
+      ]
+    }
+  ],
+  "versions": [
+    "v2",
+    "v2_5",
+    "v2_6",
+    "v3"
+  ]
+}

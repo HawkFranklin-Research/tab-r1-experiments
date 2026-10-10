@@ -1,0 +1,13 @@
+{
+  "tabfm_default": {
+    "status": "success",
+    "raw_paths": {
+      "json": "/home/prime/Documents/g3/cancer-os-exp/exp03_combined_extreme_survival/outputs_tabfm_pytorch/tabfm/runs/all_core_extreme_os_death_lt3yr_survival_ge5yr_top75_no_cancer_feature/20260705_041933/raw/tabfm_default/raw_predictions.json",
+      "npz": "/home/prime/Documents/g3/cancer-os-exp/exp03_combined_extreme_survival/outputs_tabfm_pytorch/tabfm/runs/all_core_extreme_os_death_lt3yr_survival_ge5yr_top75_no_cancer_feature/20260705_041933/raw/tabfm_default/raw_predictions.npz"
+    },
+    "plot_files": [
+      "tabfm_default_confusion_matrix.png",
+      "tabfm_default_roc_curve.png"
+    ]
+  }
+}

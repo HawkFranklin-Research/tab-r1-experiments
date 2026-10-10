@@ -1,0 +1,5 @@
+dataset,model_name,cancer_type,n_test,class_0_test,class_1_test,sensitivity,specificity,balanced_accuracy,pr_auc
+ALL_core_extreme_os_death_lt3yr_survival_ge5yr_top75_no_cancer_feature,tabfm_default,BRCA,44,32,12,0.0,1.0,0.5,0.20955713495473438
+ALL_core_extreme_os_death_lt3yr_survival_ge5yr_top75_no_cancer_feature,tabfm_default,HNSCC,36,2,34,1.0,0.0,0.5,0.934552905129338
+ALL_core_extreme_os_death_lt3yr_survival_ge5yr_top75_no_cancer_feature,tabfm_default,LSCC,35,10,25,1.0,0.0,0.5,0.7912931422362163
+ALL_core_extreme_os_death_lt3yr_survival_ge5yr_top75_no_cancer_feature,tabfm_default,LUAD,26,6,20,1.0,0.0,0.5,0.8176030418856506

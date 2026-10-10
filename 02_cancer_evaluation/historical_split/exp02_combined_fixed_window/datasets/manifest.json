@@ -1,0 +1,127 @@
+{
+  "experiment": "exp02_combined_fixed_window",
+  "input_root": "/home/prime/Documents/g3/c-5/gpt/processed/train_ready",
+  "output_dir": "/home/prime/Documents/g3/cancer-os-exp/exp02_combined_fixed_window/datasets",
+  "view": "core",
+  "max_features": 100,
+  "min_class_count": 5,
+  "include_cancer_feature": false,
+  "feature_policy": "Union of per-cancer top-variance non-clinical features, capped globally.",
+  "label_policy": {
+    "positive_class": "1 = death observed on or before horizon",
+    "negative_class": "0 = known survival beyond horizon",
+    "excluded": "patients censored before horizon",
+    "horizons_days": {
+      "os_3yr": 1095,
+      "os_5yr": 1825
+    }
+  },
+  "records": [
+    {
+      "name": "ALL_core_os_3yr_event_top94_no_cancer_feature",
+      "path": "/home/prime/Documents/g3/cancer-os-exp/exp02_combined_fixed_window/datasets/ALL_core_os_3yr_event_top94_no_cancer_feature.csv",
+      "task": "binary",
+      "target": "target",
+      "source_cancers": [
+        "BRCA",
+        "ESCA",
+        "HNSCC",
+        "LSCC",
+        "LUAD"
+      ],
+      "view": "core",
+      "endpoint": "os_3yr",
+      "samples": 1645,
+      "features": 94,
+      "class_counts": {
+        "0": 969,
+        "1": 676
+      },
+      "label_rule": "1 = death observed on or before 1095 days; 0 = known survival beyond 1095 days",
+      "metadata_path": "/home/prime/Documents/g3/cancer-os-exp/exp02_combined_fixed_window/datasets/ALL_core_os_3yr_event_top94_no_cancer_feature_metadata.csv",
+      "horizon_days": 1095,
+      "excluded_ambiguous": null,
+      "cancer_counts": {
+        "BRCA": 501,
+        "HNSCC": 385,
+        "LSCC": 355,
+        "LUAD": 318,
+        "ESCA": 86
+      },
+      "cancer_label_counts": {
+        "BRCA": {
+          "0": 430,
+          "1": 71
+        },
+        "ESCA": {
+          "1": 68,
+          "0": 18
+        },
+        "HNSCC": {
+          "1": 210,
+          "0": 175
+        },
+        "LSCC": {
+          "0": 185,
+          "1": 170
+        },
+        "LUAD": {
+          "0": 161,
+          "1": 157
+        }
+      },
+      "include_cancer_feature": false,
+      "note": "Combined-cancer fixed-window OS event classification."
+    },
+    {
+      "name": "ALL_core_os_5yr_event_top75_no_cancer_feature",
+      "path": "/home/prime/Documents/g3/cancer-os-exp/exp02_combined_fixed_window/datasets/ALL_core_os_5yr_event_top75_no_cancer_feature.csv",
+      "task": "binary",
+      "target": "target",
+      "source_cancers": [
+        "BRCA",
+        "HNSCC",
+        "LSCC",
+        "LUAD"
+      ],
+      "view": "core",
+      "endpoint": "os_5yr",
+      "samples": 1168,
+      "features": 75,
+      "class_counts": {
+        "1": 726,
+        "0": 442
+      },
+      "label_rule": "1 = death observed on or before 1825 days; 0 = known survival beyond 1825 days",
+      "metadata_path": "/home/prime/Documents/g3/cancer-os-exp/exp02_combined_fixed_window/datasets/ALL_core_os_5yr_event_top75_no_cancer_feature_metadata.csv",
+      "horizon_days": 1825,
+      "excluded_ambiguous": null,
+      "cancer_counts": {
+        "BRCA": 350,
+        "HNSCC": 286,
+        "LSCC": 281,
+        "LUAD": 251
+      },
+      "cancer_label_counts": {
+        "BRCA": {
+          "0": 249,
+          "1": 101
+        },
+        "HNSCC": {
+          "1": 232,
+          "0": 54
+        },
+        "LSCC": {
+          "1": 199,
+          "0": 82
+        },
+        "LUAD": {
+          "1": 194,
+          "0": 57
+        }
+      },
+      "include_cancer_feature": false,
+      "note": "Combined-cancer fixed-window OS event classification."
+    }
+  ]
+}

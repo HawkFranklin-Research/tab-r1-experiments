@@ -1,0 +1,45 @@
+{
+  "dataset": "BRCA_core_os_3yr_event_top100",
+  "dataset_path": "/home/prime/Documents/g3/cancer-os-exp/exp01_per_cancer_fixed_window/datasets/BRCA_core_os_3yr_event_top100.csv",
+  "metadata_path": "/home/prime/Documents/g3/cancer-os-exp/exp01_per_cancer_fixed_window/datasets/BRCA_core_os_3yr_event_top100_metadata.csv",
+  "task_type": "binary",
+  "target": "target",
+  "seed": 42,
+  "train_rows_cap": 1024,
+  "tabfm_backend": "pytorch",
+  "tabfm_ensemble": false,
+  "split_stats": {
+    "n_total": 501,
+    "n_train": 350,
+    "n_val": 75,
+    "n_test": 76,
+    "class_counts_total": {
+      "0": 430,
+      "1": 71
+    },
+    "class_counts_train": {
+      "0": 301,
+      "1": 49
+    },
+    "class_counts_val": {
+      "0": 64,
+      "1": 11
+    },
+    "class_counts_test": {
+      "0": 65,
+      "1": 11
+    },
+    "class_0_train": 301,
+    "class_1_train": 49,
+    "class_0_val": 64,
+    "class_1_val": 11,
+    "class_0_test": 65,
+    "class_1_test": 11,
+    "cancer_counts_total": {
+      "BRCA": 501
+    },
+    "test_cancer_counts": {
+      "BRCA": 76
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "dataset": "ALL_core_os_5yr_event_top75_no_cancer_feature",
+  "dataset_path": "/home/prime/Documents/g3/cancer-os-exp/exp02_combined_fixed_window/datasets/ALL_core_os_5yr_event_top75_no_cancer_feature.csv",
+  "metadata_path": "/home/prime/Documents/g3/cancer-os-exp/exp02_combined_fixed_window/datasets/ALL_core_os_5yr_event_top75_no_cancer_feature_metadata.csv",
+  "task_type": "binary",
+  "target": "target",
+  "seed": 42,
+  "train_rows_cap": 1024,
+  "tabfm_backend": "pytorch",
+  "tabfm_ensemble": false,
+  "split_stats": {
+    "n_total": 1168,
+    "n_train": 816,
+    "n_val": 176,
+    "n_test": 176,
+    "class_counts_total": {
+      "1": 726,
+      "0": 442
+    },
+    "class_counts_train": {
+      "1": 508,
+      "0": 308
+    },
+    "class_counts_val": {
+      "1": 109,
+      "0": 67
+    },
+    "class_counts_test": {
+      "1": 109,
+      "0": 67
+    },
+    "class_0_train": 308,
+    "class_1_train": 508,
+    "class_0_val": 67,
+    "class_1_val": 109,
+    "class_0_test": 67,
+    "class_1_test": 109,
+    "cancer_counts_total": {
+      "BRCA": 350,
+      "HNSCC": 286,
+      "LSCC": 281,
+      "LUAD": 251
+    },
+    "test_cancer_counts": {
+      "BRCA": 53,
+      "LSCC": 51,
+      "HNSCC": 37,
+      "LUAD": 35
+    }
+  }
+}

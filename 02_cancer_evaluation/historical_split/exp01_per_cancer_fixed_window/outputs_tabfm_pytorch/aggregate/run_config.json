@@ -1,0 +1,20 @@
+{
+  "created_at": "2026-07-05T04:12:19",
+  "manifest_path": "/home/prime/Documents/g3/cancer-os-exp/exp01_per_cancer_fixed_window/datasets/manifest.json",
+  "output_root": "/home/prime/Documents/g3/cancer-os-exp/exp01_per_cancer_fixed_window/outputs_tabfm_pytorch",
+  "package_src": "/home/prime/Documents/g3/tab-r1/package/src",
+  "seed": 42,
+  "train_rows_cap": 1024,
+  "models": [
+    "tabfm"
+  ],
+  "tabpfn_versions": [
+    "v2",
+    "v2.5",
+    "v2.6",
+    "v3"
+  ],
+  "tabfm_backend": "pytorch",
+  "tabfm_ensemble": false,
+  "legacy_v1_root": null
+}

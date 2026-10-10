@@ -1,0 +1,45 @@
+{
+  "dataset_name": "BRCA_core_os_5yr_event_top100",
+  "rows": [
+    {
+      "model_name": "tabpfn_v2",
+      "version": "v2",
+      "task_type": "binary",
+      "status": "success",
+      "accuracy": 0.7169811320754716,
+      "f1": 0.0,
+      "roc_auc": 0.6035087719298246,
+      "log_loss": 0.5805018659087904
+    },
+    {
+      "model_name": "tabpfn_v2_5",
+      "version": "v2_5",
+      "task_type": "binary",
+      "status": "success",
+      "accuracy": 0.7169811320754716,
+      "f1": 0.0,
+      "roc_auc": 0.5947368421052631,
+      "log_loss": 0.5763073100094839
+    },
+    {
+      "model_name": "tabpfn_v2_6",
+      "version": "v2_6",
+      "task_type": "binary",
+      "status": "success",
+      "accuracy": 0.7358490566037735,
+      "f1": 0.125,
+      "roc_auc": 0.5464912280701755,
+      "log_loss": 0.5828900590195274
+    },
+    {
+      "model_name": "tabpfn_v3",
+      "version": "v3",
+      "task_type": "binary",
+      "status": "success",
+      "accuracy": 0.7358490566037735,
+      "f1": 0.125,
+      "roc_auc": 0.5842105263157894,
+      "log_loss": 0.5718562154271083
+    }
+  ]
+}

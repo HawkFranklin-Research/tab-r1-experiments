@@ -1,0 +1,7 @@
+{
+  "merged_from": [
+    "/home/prime/Documents/g3/cancer-os-exp/exp02_combined_fixed_window/outputs_tabpfn",
+    "/home/prime/Documents/g3/cancer-os-exp/exp02_combined_fixed_window/outputs_tabfm_pytorch"
+  ],
+  "experiment": "exp02_combined_fixed_window"
+}
