@@ -1,0 +1,3 @@
+control,n,folds,accuracy,balanced_accuracy
+molecular_values,1645,5,0.5702127659574469,0.4801550514092673
+structural_zero_pattern,1645,5,0.9860182370820668,0.9852373555502154

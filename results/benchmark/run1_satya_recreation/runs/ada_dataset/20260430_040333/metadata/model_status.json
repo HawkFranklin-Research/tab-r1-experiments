@@ -1,0 +1,37 @@
+{
+  "tabpfn": {
+    "status": "success",
+    "error_type": null,
+    "error_message": null
+  },
+  "random_forest": {
+    "status": "success",
+    "error_type": null,
+    "error_message": null
+  },
+  "logistic_regression": {
+    "status": "success",
+    "error_type": null,
+    "error_message": null
+  },
+  "catboost": {
+    "status": "success",
+    "error_type": null,
+    "error_message": null
+  },
+  "xgboost": {
+    "status": "success",
+    "error_type": null,
+    "error_message": null
+  },
+  "lightgbm": {
+    "status": "success",
+    "error_type": null,
+    "error_message": null
+  },
+  "autogluon": {
+    "status": "success",
+    "error_type": null,
+    "error_message": null
+  }
+}

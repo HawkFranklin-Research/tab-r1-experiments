@@ -1,0 +1,102 @@
+{
+  "rows": [
+    {
+      "model_name": "tabpfn",
+      "family": "tabpfn",
+      "task_type": "binary",
+      "status": "success",
+      "fit_time_s": 0.3790907549991971,
+      "predict_time_s": 1.143552430001364,
+      "error_type": null,
+      "error_message": null,
+      "accuracy": 0.8846153846153846,
+      "f1": 0.8723404255319149,
+      "roc_auc": 0.9550224887556222,
+      "log_loss": 0.28256583834339066
+    },
+    {
+      "model_name": "random_forest",
+      "family": "baseline",
+      "task_type": "binary",
+      "status": "success",
+      "fit_time_s": 0.2346283860006224,
+      "predict_time_s": 0.0501922490002471,
+      "error_type": null,
+      "error_message": null,
+      "accuracy": 0.875,
+      "f1": 0.8571428571428571,
+      "roc_auc": 0.9424662668665666,
+      "log_loss": 0.31031022184528223
+    },
+    {
+      "model_name": "logistic_regression",
+      "family": "baseline",
+      "task_type": "binary",
+      "status": "success",
+      "fit_time_s": 0.006549690999236191,
+      "predict_time_s": 0.0029634490001626546,
+      "error_type": null,
+      "error_message": null,
+      "accuracy": 0.8557692307692307,
+      "f1": 0.845360824742268,
+      "roc_auc": 0.949400299850075,
+      "log_loss": 0.2973014563730532
+    },
+    {
+      "model_name": "catboost",
+      "family": "baseline",
+      "task_type": "binary",
+      "status": "success",
+      "fit_time_s": 0.8906666619986936,
+      "predict_time_s": 0.00508327600073244,
+      "error_type": null,
+      "error_message": null,
+      "accuracy": 0.8653846153846154,
+      "f1": 0.8541666666666666,
+      "roc_auc": 0.9550224887556222,
+      "log_loss": 0.2838924578123053
+    },
+    {
+      "model_name": "xgboost",
+      "family": "baseline",
+      "task_type": "binary",
+      "status": "success",
+      "fit_time_s": 0.2663086069987912,
+      "predict_time_s": 0.0057105159994534915,
+      "error_type": null,
+      "error_message": null,
+      "accuracy": 0.8846153846153846,
+      "f1": 0.8695652173913043,
+      "roc_auc": 0.9482758620689655,
+      "log_loss": 0.3087055962437174
+    },
+    {
+      "model_name": "lightgbm",
+      "family": "baseline",
+      "task_type": "binary",
+      "status": "success",
+      "fit_time_s": 0.07663092200164101,
+      "predict_time_s": 0.005808683001305326,
+      "error_type": null,
+      "error_message": null,
+      "accuracy": 0.8846153846153846,
+      "f1": 0.8695652173913043,
+      "roc_auc": 0.9475262368815592,
+      "log_loss": 0.3995525609275032
+    },
+    {
+      "model_name": "autogluon",
+      "family": "baseline",
+      "task_type": "binary",
+      "status": "success",
+      "fit_time_s": 4.6621217819993035,
+      "predict_time_s": 0.1044207600007212,
+      "error_type": null,
+      "error_message": null,
+      "accuracy": 0.8653846153846154,
+      "f1": 0.8571428571428571,
+      "roc_auc": 0.9479010494752624,
+      "log_loss": 0.5491810713611021
+    }
+  ]
+}

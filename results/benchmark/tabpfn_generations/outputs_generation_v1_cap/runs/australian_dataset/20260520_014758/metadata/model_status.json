@@ -1,0 +1,9 @@
+{
+  "v1": {
+    "status": "success",
+    "plot_files": [
+      "v1_confusion_matrix.png",
+      "v1_roc_curve.png"
+    ]
+  }
+}

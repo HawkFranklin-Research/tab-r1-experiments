@@ -1,0 +1,23 @@
+{
+  "fold_manifest": "/opt/workspace/tab-r1/paper/analysis/generated_folds/fold_manifest.csv",
+  "models": [
+    "tabpfn_v2",
+    "tabpfn_v2_5",
+    "tabpfn_v2_6",
+    "tabpfn_v3",
+    "tabfm_default",
+    "autogluon"
+  ],
+  "seed": 42,
+  "threads": 20,
+  "memory_gb": 40,
+  "tabfm_backend": "pytorch",
+  "autogluon_time_limit": 180,
+  "device": "cpu",
+  "smoke": false,
+  "confirmed_full_run": true,
+  "resume": true,
+  "start_fold": 0,
+  "end_fold": 400,
+  "max_folds": null
+}

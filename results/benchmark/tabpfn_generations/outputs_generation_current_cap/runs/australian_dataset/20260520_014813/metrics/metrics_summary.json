@@ -1,0 +1,41 @@
+{
+  "dataset_name": "australian_dataset",
+  "rows": [
+    {
+      "version": "v2",
+      "task_type": "binary",
+      "status": "success",
+      "accuracy": 0.8173076923076923,
+      "f1": 0.8155339805825242,
+      "roc_auc": 0.9523988005997002,
+      "log_loss": 0.32258783511242595
+    },
+    {
+      "version": "v2_5",
+      "task_type": "binary",
+      "status": "success",
+      "accuracy": 0.8173076923076923,
+      "f1": 0.819047619047619,
+      "roc_auc": 0.9553973013493253,
+      "log_loss": 0.32015026851624834
+    },
+    {
+      "version": "v2_6",
+      "task_type": "binary",
+      "status": "success",
+      "accuracy": 0.8269230769230769,
+      "f1": 0.8269230769230769,
+      "roc_auc": 0.9449025487256372,
+      "log_loss": 0.33314505491629054
+    },
+    {
+      "version": "v3",
+      "task_type": "binary",
+      "status": "success",
+      "accuracy": 0.8173076923076923,
+      "f1": 0.8155339805825242,
+      "roc_auc": 0.9479010494752623,
+      "log_loss": 0.3302837173533671
+    }
+  ]
+}

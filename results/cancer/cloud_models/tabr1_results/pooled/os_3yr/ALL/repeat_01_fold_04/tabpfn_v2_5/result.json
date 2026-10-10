@@ -1,0 +1,15 @@
+{
+  "scope": "pooled",
+  "endpoint": "os_3yr",
+  "cancer": "ALL",
+  "repeat": 1,
+  "fold": 4,
+  "model_name": "tabpfn_v2_5",
+  "n_train": 1052,
+  "n_validation": 264,
+  "n_test": 329,
+  "status": "failed",
+  "error_type": "RuntimeError",
+  "error_message": "Running on CPU with more than 1000 samples is not allowed by default due to slow performance.\nTo override this behavior, set the environment variable TABPFN_ALLOW_CPU_LARGE_DATASET=1 or set ignore_pretraining_limits=True.\nAlternatively, consider using a GPU or the tabpfn-client API: https://github.com/PriorLabs/tabpfn-client",
+  "traceback_path": "/opt/tabr1_results/pooled/os_3yr/ALL/repeat_01_fold_04/tabpfn_v2_5/traceback.txt"
+}

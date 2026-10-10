@@ -1,0 +1,4 @@
+endpoint,foundation_models,tree_models,foundation_mean_delta,tree_mean_delta,did,did_ci_low,did_ci_high,p_did_ge_0
+extreme_os,tabfm_default;tabpfn_v2;tabpfn_v2_5;tabpfn_v2_6;tabpfn_v3,random_forest;catboost;xgboost;lightgbm,-0.04951288038739844,-0.007255498251756785,-0.04225738213564166,-0.07790810203248442,-0.0052115627318797784,0.0145
+os_3yr,tabfm_default;tabpfn_v3,random_forest;catboost;xgboost;lightgbm,-0.02497989062281089,0.0024748720217247304,-0.02745476264453562,-0.05950171668931093,0.0047642946024477285,0.043
+os_5yr,tabfm_default;tabpfn_v2;tabpfn_v2_5;tabpfn_v2_6;tabpfn_v3,random_forest;catboost;xgboost;lightgbm,-0.04078880349299025,-0.011013564863787718,-0.029775238629202533,-0.06459313711342232,0.002672637795176466,0.0335

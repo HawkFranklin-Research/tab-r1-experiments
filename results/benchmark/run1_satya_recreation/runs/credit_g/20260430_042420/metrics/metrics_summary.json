@@ -1,0 +1,74 @@
+{
+  "rows": [
+    {
+      "model_name": "tabpfn",
+      "family": "tabpfn",
+      "task_type": "binary",
+      "status": "failed",
+      "fit_time_s": null,
+      "predict_time_s": null,
+      "error_type": "ValueError",
+      "error_message": "pos_label=1 is not a valid label. It should be one of ['bad', 'good']"
+    },
+    {
+      "model_name": "random_forest",
+      "family": "baseline",
+      "task_type": "binary",
+      "status": "failed",
+      "fit_time_s": null,
+      "predict_time_s": null,
+      "error_type": "ValueError",
+      "error_message": "pos_label=1 is not a valid label. It should be one of ['bad', 'good']"
+    },
+    {
+      "model_name": "logistic_regression",
+      "family": "baseline",
+      "task_type": "binary",
+      "status": "failed",
+      "fit_time_s": null,
+      "predict_time_s": null,
+      "error_type": "ValueError",
+      "error_message": "pos_label=1 is not a valid label. It should be one of ['bad', 'good']"
+    },
+    {
+      "model_name": "catboost",
+      "family": "baseline",
+      "task_type": "binary",
+      "status": "failed",
+      "fit_time_s": null,
+      "predict_time_s": null,
+      "error_type": "ValueError",
+      "error_message": "pos_label=1 is not a valid label. It should be one of ['bad', 'good']"
+    },
+    {
+      "model_name": "xgboost",
+      "family": "baseline",
+      "task_type": "binary",
+      "status": "failed",
+      "fit_time_s": null,
+      "predict_time_s": null,
+      "error_type": "ValueError",
+      "error_message": "Invalid classes inferred from unique values of `y`.  Expected: [0 1], got ['bad' 'good']"
+    },
+    {
+      "model_name": "lightgbm",
+      "family": "baseline",
+      "task_type": "binary",
+      "status": "failed",
+      "fit_time_s": null,
+      "predict_time_s": null,
+      "error_type": "ValueError",
+      "error_message": "pos_label=1 is not a valid label. It should be one of ['bad', 'good']"
+    },
+    {
+      "model_name": "autogluon",
+      "family": "baseline",
+      "task_type": "binary",
+      "status": "failed",
+      "fit_time_s": null,
+      "predict_time_s": null,
+      "error_type": "ValueError",
+      "error_message": "pos_label=1 is not a valid label. It should be one of ['bad', 'good']"
+    }
+  ]
+}

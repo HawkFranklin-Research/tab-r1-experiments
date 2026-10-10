@@ -1,0 +1,41 @@
+{
+  "dataset_name": "chum",
+  "rows": [
+    {
+      "version": "v2",
+      "task_type": "binary",
+      "status": "success",
+      "accuracy": 0.936,
+      "f1": 0.7446808510638298,
+      "roc_auc": 0.9280074416969413,
+      "log_loss": 0.16920292791079342
+    },
+    {
+      "version": "v2_5",
+      "task_type": "binary",
+      "status": "success",
+      "accuracy": 0.9346666666666666,
+      "f1": 0.73224043715847,
+      "roc_auc": 0.9299118129614439,
+      "log_loss": 0.16226651612520407
+    },
+    {
+      "version": "v2_6",
+      "task_type": "binary",
+      "status": "success",
+      "accuracy": 0.9453333333333334,
+      "f1": 0.7875647668393783,
+      "roc_auc": 0.9269673620063283,
+      "log_loss": 0.1657101811306124
+    },
+    {
+      "version": "v3",
+      "task_type": "binary",
+      "status": "success",
+      "accuracy": 0.944,
+      "f1": 0.78125,
+      "roc_auc": 0.9345189265205672,
+      "log_loss": 0.14859592288919013
+    }
+  ]
+}

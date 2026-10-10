@@ -1,0 +1,12 @@
+model_name,model,family,fit_time_s,predict_time_s
+autogluon,AutoGluon,AutoML,3.9695190835000176,0.01082835099896325
+catboost,CatBoost,Boosted tree,1.718943013000171,0.0058636454996303
+lightgbm,LightGBM,Boosted tree,0.05893735649988225,0.006469951998951701
+logistic_regression,Logistic regression,Linear,0.01026572999944615,0.0042835399999603
+random_forest,Random forest,Tree ensemble,0.34903219400075614,0.07535142000051559
+tabfm_default,TabFM,Foundation model,0.0129031755004689,2.6656228559995725
+tabpfn_v2,TabPFN v2,Foundation model,0.2091457379992789,4.236334126000656
+tabpfn_v2_5,TabPFN v2.5,Foundation model,0.2345906109985662,5.02967327600345
+tabpfn_v2_6,TabPFN v2.6,Foundation model,0.2968793020008888,5.309266367999953
+tabpfn_v3,TabPFN v3,Foundation model,0.5146089090012538,4.455817172000025
+xgboost,XGBoost,Boosted tree,0.14214640899990622,0.0063286580025305

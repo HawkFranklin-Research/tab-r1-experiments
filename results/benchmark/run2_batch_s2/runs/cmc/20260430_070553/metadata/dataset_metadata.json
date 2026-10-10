@@ -1,0 +1,44 @@
+{
+  "dataset_name": "cmc",
+  "task_type": "multiclass",
+  "target_name": "target",
+  "feature_names": [
+    "Wifes_age",
+    "Wifes_education",
+    "Husbands_education",
+    "Number_of_children_ever_born",
+    "Wifes_religion",
+    "Wifes_now_working%3F",
+    "Husbands_occupation",
+    "Standard-of-living_index",
+    "Media_exposure"
+  ],
+  "metadata": {
+    "total_samples": 1473,
+    "train_samples": 1031,
+    "val_samples": 221,
+    "test_samples": 221,
+    "n_features": 9,
+    "file_source": "/home/prime/Documents/g3/tab-r1/Accurate_Prediction_on_Small_Dataset_with_TabPFN_Research/Practical Research/Datasets/Datasets from TabPFN Classification/Classification DataSets/cmc.csv"
+  },
+  "classification_label_contract": {
+    "task_type": "multiclass",
+    "classes": [
+      "1",
+      "2",
+      "3"
+    ],
+    "encoded_classes": [
+      0,
+      1,
+      2
+    ],
+    "positive_label": null,
+    "positive_index": null,
+    "probability_columns": [
+      "prob_1",
+      "prob_2",
+      "prob_3"
+    ]
+  }
+}

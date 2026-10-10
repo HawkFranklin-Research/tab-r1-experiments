@@ -1,0 +1,14 @@
+{
+  "dataset_name": "chum",
+  "rows": [
+    {
+      "version": "v1",
+      "task_type": "binary",
+      "status": "success",
+      "accuracy": 0.928,
+      "f1": 0.7,
+      "roc_auc": 0.9214080628149537,
+      "log_loss": 0.19920281959733263
+    }
+  ]
+}

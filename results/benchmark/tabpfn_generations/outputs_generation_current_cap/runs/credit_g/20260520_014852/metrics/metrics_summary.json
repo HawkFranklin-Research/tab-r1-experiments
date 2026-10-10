@@ -1,0 +1,41 @@
+{
+  "dataset_name": "credit-g",
+  "rows": [
+    {
+      "version": "v2",
+      "task_type": "binary",
+      "status": "success",
+      "accuracy": 0.7466666666666667,
+      "f1": 0.8272727272727273,
+      "roc_auc": 0.7842328042328042,
+      "log_loss": 0.5002269598417499
+    },
+    {
+      "version": "v2_5",
+      "task_type": "binary",
+      "status": "success",
+      "accuracy": 0.74,
+      "f1": 0.8266666666666667,
+      "roc_auc": 0.7892063492063492,
+      "log_loss": 0.4993782209064193
+    },
+    {
+      "version": "v2_6",
+      "task_type": "binary",
+      "status": "success",
+      "accuracy": 0.74,
+      "f1": 0.8202764976958525,
+      "roc_auc": 0.776084656084656,
+      "log_loss": 0.5112041728358964
+    },
+    {
+      "version": "v3",
+      "task_type": "binary",
+      "status": "success",
+      "accuracy": 0.7533333333333333,
+      "f1": 0.827906976744186,
+      "roc_auc": 0.7877248677248677,
+      "log_loss": 0.5012569973824695
+    }
+  ]
+}

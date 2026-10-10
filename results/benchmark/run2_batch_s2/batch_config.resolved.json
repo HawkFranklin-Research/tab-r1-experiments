@@ -1,0 +1,82 @@
+{
+  "batch_name": "batch_s2",
+  "output_root": "/home/prime/Documents/g3/tab-r1/results-s2",
+  "seed": 42,
+  "run_phase3": true,
+  "fail_fast": false,
+  "autogluon_presets": "medium_quality",
+  "autogluon_time_limit": 60.0,
+  "autogluon_verbosity": 0,
+  "datasets": [
+    {
+      "name": "ada",
+      "path": "/home/prime/Documents/g3/tab-r1/Accurate_Prediction_on_Small_Dataset_with_TabPFN_Research/Practical Research/Datasets/Datasets from TabPFN Classification/Classification DataSets/ada_dataset.csv",
+      "target_column": null,
+      "task_override": null,
+      "enabled": true,
+      "autogluon_presets": "medium_quality",
+      "autogluon_time_limit": 60.0,
+      "autogluon_verbosity": 0
+    },
+    {
+      "name": "australian",
+      "path": "/home/prime/Documents/g3/tab-r1/Accurate_Prediction_on_Small_Dataset_with_TabPFN_Research/Practical Research/Datasets/Datasets from TabPFN Classification/Classification DataSets/australian_dataset.csv",
+      "target_column": null,
+      "task_override": null,
+      "enabled": true,
+      "autogluon_presets": "medium_quality",
+      "autogluon_time_limit": 60.0,
+      "autogluon_verbosity": 0
+    },
+    {
+      "name": "blood_transfusion",
+      "path": "/home/prime/Documents/g3/tab-r1/Accurate_Prediction_on_Small_Dataset_with_TabPFN_Research/Practical Research/Datasets/Datasets from TabPFN Classification/Classification DataSets/blood_transfusion-service-center.csv",
+      "target_column": null,
+      "task_override": null,
+      "enabled": true,
+      "autogluon_presets": "medium_quality",
+      "autogluon_time_limit": 60.0,
+      "autogluon_verbosity": 0
+    },
+    {
+      "name": "car",
+      "path": "/home/prime/Documents/g3/tab-r1/Accurate_Prediction_on_Small_Dataset_with_TabPFN_Research/Practical Research/Datasets/Datasets from TabPFN Classification/Classification DataSets/car.csv",
+      "target_column": null,
+      "task_override": null,
+      "enabled": true,
+      "autogluon_presets": "medium_quality",
+      "autogluon_time_limit": 60.0,
+      "autogluon_verbosity": 0
+    },
+    {
+      "name": "chum",
+      "path": "/home/prime/Documents/g3/tab-r1/Accurate_Prediction_on_Small_Dataset_with_TabPFN_Research/Practical Research/Datasets/Datasets from TabPFN Classification/Classification DataSets/chum.csv",
+      "target_column": null,
+      "task_override": null,
+      "enabled": true,
+      "autogluon_presets": "medium_quality",
+      "autogluon_time_limit": 60.0,
+      "autogluon_verbosity": 0
+    },
+    {
+      "name": "cmc",
+      "path": "/home/prime/Documents/g3/tab-r1/Accurate_Prediction_on_Small_Dataset_with_TabPFN_Research/Practical Research/Datasets/Datasets from TabPFN Classification/Classification DataSets/cmc.csv",
+      "target_column": null,
+      "task_override": null,
+      "enabled": true,
+      "autogluon_presets": "medium_quality",
+      "autogluon_time_limit": 60.0,
+      "autogluon_verbosity": 0
+    },
+    {
+      "name": "credit-g",
+      "path": "/home/prime/Documents/g3/tab-r1/Accurate_Prediction_on_Small_Dataset_with_TabPFN_Research/Practical Research/Datasets/Datasets from TabPFN Classification/Classification DataSets/credit-g.csv",
+      "target_column": null,
+      "task_override": null,
+      "enabled": true,
+      "autogluon_presets": "medium_quality",
+      "autogluon_time_limit": 60.0,
+      "autogluon_verbosity": 0
+    }
+  ]
+}

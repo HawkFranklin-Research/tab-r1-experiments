@@ -1,0 +1,31 @@
+{
+  "dataset_name": "car",
+  "dataset_path": "/home/prime/Documents/g3/tab-r1/Accurate_Prediction_on_Small_Dataset_with_TabPFN_Research/Practical Research/Datasets/Datasets from TabPFN Classification/Classification DataSets/car.csv",
+  "task_type": "multiclass",
+  "target_name": "target",
+  "feature_names": [
+    "buying",
+    "maint",
+    "doors",
+    "persons",
+    "lug_boot",
+    "safety"
+  ],
+  "metadata": {
+    "total_samples": 1728,
+    "train_samples": 1208,
+    "val_samples": 260,
+    "test_samples": 260,
+    "n_features": 6,
+    "file_source": "/home/prime/Documents/g3/tab-r1/Accurate_Prediction_on_Small_Dataset_with_TabPFN_Research/Practical Research/Datasets/Datasets from TabPFN Classification/Classification DataSets/car.csv"
+  },
+  "plotting_available": true,
+  "versions": [
+    "v2",
+    "v2_5",
+    "v2_6",
+    "v3"
+  ],
+  "train_rows_cap": 1024,
+  "train_rows_used": 1024
+}

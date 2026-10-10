@@ -1,0 +1,6 @@
+cancer,n_raw,n_patients,n_os_3yr,excluded_os_3yr,n_os_5yr,excluded_os_5yr
+BRCA,1206,1206,501,679,350.0,830.0
+ESCA,182,182,86,96,,
+HNSCC,631,631,385,239,286.0,338.0
+LSCC,595,595,355,220,281.0,294.0
+LUAD,624,624,318,292,251.0,359.0

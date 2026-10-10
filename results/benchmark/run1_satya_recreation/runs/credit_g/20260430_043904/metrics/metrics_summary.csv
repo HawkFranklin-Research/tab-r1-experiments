@@ -1,0 +1,8 @@
+model_name,family,task_type,status,fit_time_s,predict_time_s,error_type,error_message
+tabpfn,tabpfn,binary,failed,,,ValueError,"pos_label=1 is not a valid label. It should be one of ['bad', 'good']"
+random_forest,baseline,binary,failed,,,ValueError,"pos_label=1 is not a valid label. It should be one of ['bad', 'good']"
+logistic_regression,baseline,binary,failed,,,ValueError,"pos_label=1 is not a valid label. It should be one of ['bad', 'good']"
+catboost,baseline,binary,failed,,,ValueError,"pos_label=1 is not a valid label. It should be one of ['bad', 'good']"
+xgboost,baseline,binary,failed,,,ValueError,"Invalid classes inferred from unique values of `y`.  Expected: [0 1], got ['bad' 'good']"
+lightgbm,baseline,binary,failed,,,ValueError,"pos_label=1 is not a valid label. It should be one of ['bad', 'good']"
+autogluon,baseline,binary,failed,,,ValueError,"pos_label=1 is not a valid label. It should be one of ['bad', 'good']"

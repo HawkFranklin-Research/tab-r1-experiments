@@ -1,0 +1,42 @@
+{
+  "dataset_name": "credit-g",
+  "dataset_path": "/home/prime/Documents/g3/tab-r1/Accurate_Prediction_on_Small_Dataset_with_TabPFN_Research/Practical Research/Datasets/Datasets from TabPFN Classification/Classification DataSets/credit-g.csv",
+  "task_type": "binary",
+  "target_name": "target",
+  "feature_names": [
+    "checking_status",
+    "duration",
+    "credit_history",
+    "purpose",
+    "credit_amount",
+    "savings_status",
+    "employment",
+    "installment_commitment",
+    "personal_status",
+    "other_parties",
+    "residence_since",
+    "property_magnitude",
+    "age",
+    "other_payment_plans",
+    "housing",
+    "existing_credits",
+    "job",
+    "num_dependents",
+    "own_telephone",
+    "foreign_worker"
+  ],
+  "metadata": {
+    "total_samples": 1000,
+    "train_samples": 700,
+    "val_samples": 150,
+    "test_samples": 150,
+    "n_features": 20,
+    "file_source": "/home/prime/Documents/g3/tab-r1/Accurate_Prediction_on_Small_Dataset_with_TabPFN_Research/Practical Research/Datasets/Datasets from TabPFN Classification/Classification DataSets/credit-g.csv"
+  },
+  "plotting_available": true,
+  "versions": [
+    "v1"
+  ],
+  "train_rows_cap": 1024,
+  "train_rows_used": 700
+}

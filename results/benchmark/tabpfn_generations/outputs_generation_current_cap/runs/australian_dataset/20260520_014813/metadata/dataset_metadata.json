@@ -1,0 +1,39 @@
+{
+  "dataset_name": "australian_dataset",
+  "dataset_path": "/home/prime/Documents/g3/tab-r1/Accurate_Prediction_on_Small_Dataset_with_TabPFN_Research/Practical Research/Datasets/Datasets from TabPFN Classification/Classification DataSets/australian_dataset.csv",
+  "task_type": "binary",
+  "target_name": "target",
+  "feature_names": [
+    "A1",
+    "A2",
+    "A3",
+    "A4",
+    "A5",
+    "A6",
+    "A7",
+    "A8",
+    "A9",
+    "A10",
+    "A11",
+    "A12",
+    "A13",
+    "A14"
+  ],
+  "metadata": {
+    "total_samples": 690,
+    "train_samples": 482,
+    "val_samples": 104,
+    "test_samples": 104,
+    "n_features": 14,
+    "file_source": "/home/prime/Documents/g3/tab-r1/Accurate_Prediction_on_Small_Dataset_with_TabPFN_Research/Practical Research/Datasets/Datasets from TabPFN Classification/Classification DataSets/australian_dataset.csv"
+  },
+  "plotting_available": true,
+  "versions": [
+    "v2",
+    "v2_5",
+    "v2_6",
+    "v3"
+  ],
+  "train_rows_cap": 1024,
+  "train_rows_used": 482
+}

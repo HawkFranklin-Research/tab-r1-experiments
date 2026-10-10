@@ -1,0 +1,58 @@
+{
+  "project_name": "TAB-R1: Cancer Survival Tabular Foundation Model Benchmark",
+  "cloud_provider": "Google Cloud Platform (GCP)",
+  "region": "us-central1",
+  "zone": "us-central1-a",
+  "location": "Council Bluffs, Iowa, USA",
+  "provisioning_model": "SPOT",
+  "machine_type": "c3-highcpu-22",
+  "vcpu_count": 22,
+  "ram_gb": 44,
+  "disk_type": "pd-balanced",
+  "disk_size_gb": 100,
+  "timestamps": {
+    "provisioned_iso_utc": "2026-08-30T22:00:15Z",
+    "run_started_iso_utc": "2026-08-30T23:16:05Z",
+    "run_completed_iso_utc": "2026-08-31T03:30:09Z",
+    "vm_deleted_iso_utc": "2026-08-31T03:40:03Z",
+    "local_timezone": "Asia/Kolkata (IST, UTC+5:30)"
+  },
+  "durations": {
+    "active_evaluation_seconds": 15244,
+    "active_evaluation_formatted": "4h 14m 04s",
+    "total_vm_uptime_hours": 5.67
+  },
+  "workload": {
+    "total_folds": 400,
+    "cancers": [
+      "BRCA",
+      "ESCA",
+      "HNSCC",
+      "LSCC",
+      "LUAD",
+      "ALL (Pooled)"
+    ],
+    "endpoints": [
+      "os_3yr",
+      "os_5yr",
+      "extreme_os"
+    ],
+    "models": [
+      "tabpfn_v2",
+      "tabpfn_v2_5",
+      "tabpfn_v2_6",
+      "tabpfn_v3",
+      "tabfm_default",
+      "autogluon"
+    ],
+    "total_runs": 2400,
+    "successful_runs": 2400,
+    "failed_runs": 0,
+    "throughput_runs_per_minute": 9.45
+  },
+  "data_paths": {
+    "metrics_csv": "paper/tables/source_data/cloud_foundation_models/all_fold_model_metrics.csv",
+    "results_dir": "paper/tables/source_data/cloud_foundation_models/tabr1_results",
+    "results_zip": "paper/tables/source_data/tabr1_cloud_foundation_results.zip"
+  }
+}

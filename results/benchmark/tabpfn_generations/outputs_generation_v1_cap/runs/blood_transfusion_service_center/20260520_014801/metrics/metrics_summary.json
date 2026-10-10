@@ -1,0 +1,14 @@
+{
+  "dataset_name": "blood_transfusion-service-center",
+  "rows": [
+    {
+      "version": "v1",
+      "task_type": "binary",
+      "status": "success",
+      "accuracy": 0.7876106194690266,
+      "f1": 0.42857142857142855,
+      "roc_auc": 0.7510766580534023,
+      "log_loss": 0.4986029708977748
+    }
+  ]
+}

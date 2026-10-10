@@ -1,0 +1,31 @@
+{
+  "v2": {
+    "status": "success",
+    "plot_files": [
+      "v2_confusion_matrix.png",
+      "v2_roc_curve.png"
+    ]
+  },
+  "v2_5": {
+    "status": "success",
+    "plot_files": [
+      "v2_5_confusion_matrix.png",
+      "v2_5_roc_curve.png"
+    ]
+  },
+  "v2_6": {
+    "status": "success",
+    "plot_files": [
+      "v2_6_confusion_matrix.png",
+      "v2_6_roc_curve.png"
+    ]
+  },
+  "v3": {
+    "status": "success",
+    "plot_files": [
+      "v3_confusion_matrix.png",
+      "v3_roc_curve.png"
+    ]
+  },
+  "comparison_plot": "comparison_metrics.png"
+}

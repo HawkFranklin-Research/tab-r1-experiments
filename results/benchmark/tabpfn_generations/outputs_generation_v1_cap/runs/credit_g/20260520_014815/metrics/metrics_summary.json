@@ -1,0 +1,14 @@
+{
+  "dataset_name": "credit-g",
+  "rows": [
+    {
+      "version": "v1",
+      "task_type": "binary",
+      "status": "success",
+      "accuracy": 0.7266666666666667,
+      "f1": 0.8209606986899564,
+      "roc_auc": 0.773968253968254,
+      "log_loss": 0.5019925111957755
+    }
+  ]
+}

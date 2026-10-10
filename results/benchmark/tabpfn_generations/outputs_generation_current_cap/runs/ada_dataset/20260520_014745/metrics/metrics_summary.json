@@ -1,0 +1,39 @@
+{
+  "dataset_name": "ada_dataset",
+  "rows": [
+    {
+      "version": "v2",
+      "task_type": "binary",
+      "status": "success",
+      "accuracy": 0.8539325842696629,
+      "f1": 0.6690909090909091,
+      "roc_auc": 0.9158533223049352,
+      "log_loss": 0.3123081617972986
+    },
+    {
+      "version": "v2_5",
+      "task_type": "binary",
+      "status": "success",
+      "accuracy": 0.85553772070626,
+      "f1": 0.6762589928057554,
+      "roc_auc": 0.9143300248138958,
+      "log_loss": 0.3154956755498573
+    },
+    {
+      "version": "v2_6",
+      "task_type": "binary",
+      "status": "success",
+      "accuracy": 0.8619582664526485,
+      "f1": 0.6906474820143885,
+      "roc_auc": 0.9108147229114971,
+      "log_loss": 0.3207084601874339
+    },
+    {
+      "version": "v3",
+      "task_type": "binary",
+      "status": "failed",
+      "error_type": "TabPFNCUDAOutOfMemoryError",
+      "error_message": "CUDA out of memory with 623 test samples.\n\nThis is issue is usually caused by one of the following two reasons:\n\n1) Large test set \u2014 split into batches:\n\n    predictions = []\n    for i in range(0, len(X_test), 100):\n        pred = model.predict_proba(X_test[i:i + 100])\n        predictions.append(pred)\n    predictions = np.vstack(predictions)\n\n2) Large training set \u2014 batching won't help.\n   Subsample your training data; see https://docs.priorlabs.ai\n   for further guidance.\n\nYour sizes: 1,024 train / 623 test samples, 48 features.\nNot sure which? If model.predict_proba(X_test[:1]) also fails, it's (2).\n\nOriginal error: CUDA out of memory. Tried to allocate 50.00 MiB. GPU 0 has a total capacity of 3.68 GiB of which 40.94 MiB is free. Including non-PyTorch memory, this process has 742.00 MiB memory in use. Process 29417 has 2.87 GiB memory in use. Of the allocated memory 510.20 MiB is allocated by PyTorch, and 81.80 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)"
+    }
+  ]
+}

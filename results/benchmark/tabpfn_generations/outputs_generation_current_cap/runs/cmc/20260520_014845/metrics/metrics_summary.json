@@ -1,0 +1,41 @@
+{
+  "dataset_name": "cmc",
+  "rows": [
+    {
+      "version": "v2",
+      "task_type": "multiclass",
+      "status": "success",
+      "accuracy": 0.5882352941176471,
+      "f1": 0.5703165532467631,
+      "roc_auc": 0.7555411899174741,
+      "log_loss": 0.8840879461931677
+    },
+    {
+      "version": "v2_5",
+      "task_type": "multiclass",
+      "status": "success",
+      "accuracy": 0.579185520361991,
+      "f1": 0.5570370370370371,
+      "roc_auc": 0.7532988327636554,
+      "log_loss": 0.8864731828869852
+    },
+    {
+      "version": "v2_6",
+      "task_type": "multiclass",
+      "status": "success",
+      "accuracy": 0.5656108597285068,
+      "f1": 0.5483385874371131,
+      "roc_auc": 0.749895790850934,
+      "log_loss": 0.8944264803788236
+    },
+    {
+      "version": "v3",
+      "task_type": "multiclass",
+      "status": "success",
+      "accuracy": 0.579185520361991,
+      "f1": 0.5601881451881452,
+      "roc_auc": 0.7500686614498105,
+      "log_loss": 0.8883016308609183
+    }
+  ]
+}

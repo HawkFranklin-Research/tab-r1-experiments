@@ -1,0 +1,344 @@
+{
+  "runs": [
+    {
+      "dataset_name": "ada_dataset",
+      "version": "batch",
+      "status": "success",
+      "output_dir": "/home/prime/Documents/g3/tab-r1/Evaluate-TABPFN/pfn3-test/outputs_generation_current_cap/runs/ada_dataset/20260520_014745",
+      "metrics": {
+        "rows": [
+          {
+            "version": "v2",
+            "task_type": "binary",
+            "status": "success",
+            "accuracy": 0.8539325842696629,
+            "f1": 0.6690909090909091,
+            "roc_auc": 0.9158533223049352,
+            "log_loss": 0.3123081617972986
+          },
+          {
+            "version": "v2_5",
+            "task_type": "binary",
+            "status": "success",
+            "accuracy": 0.85553772070626,
+            "f1": 0.6762589928057554,
+            "roc_auc": 0.9143300248138958,
+            "log_loss": 0.3154956755498573
+          },
+          {
+            "version": "v2_6",
+            "task_type": "binary",
+            "status": "success",
+            "accuracy": 0.8619582664526485,
+            "f1": 0.6906474820143885,
+            "roc_auc": 0.9108147229114971,
+            "log_loss": 0.3207084601874339
+          },
+          {
+            "version": "v3",
+            "task_type": "binary",
+            "status": "failed",
+            "error_type": "TabPFNCUDAOutOfMemoryError",
+            "error_message": "CUDA out of memory with 623 test samples.\n\nThis is issue is usually caused by one of the following two reasons:\n\n1) Large test set \u2014 split into batches:\n\n    predictions = []\n    for i in range(0, len(X_test), 100):\n        pred = model.predict_proba(X_test[i:i + 100])\n        predictions.append(pred)\n    predictions = np.vstack(predictions)\n\n2) Large training set \u2014 batching won't help.\n   Subsample your training data; see https://docs.priorlabs.ai\n   for further guidance.\n\nYour sizes: 1,024 train / 623 test samples, 48 features.\nNot sure which? If model.predict_proba(X_test[:1]) also fails, it's (2).\n\nOriginal error: CUDA out of memory. Tried to allocate 50.00 MiB. GPU 0 has a total capacity of 3.68 GiB of which 40.94 MiB is free. Including non-PyTorch memory, this process has 742.00 MiB memory in use. Process 29417 has 2.87 GiB memory in use. Of the allocated memory 510.20 MiB is allocated by PyTorch, and 81.80 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)"
+          }
+        ]
+      },
+      "error_type": null,
+      "error_message": null
+    },
+    {
+      "dataset_name": "australian_dataset",
+      "version": "batch",
+      "status": "success",
+      "output_dir": "/home/prime/Documents/g3/tab-r1/Evaluate-TABPFN/pfn3-test/outputs_generation_current_cap/runs/australian_dataset/20260520_014813",
+      "metrics": {
+        "rows": [
+          {
+            "version": "v2",
+            "task_type": "binary",
+            "status": "success",
+            "accuracy": 0.8173076923076923,
+            "f1": 0.8155339805825242,
+            "roc_auc": 0.9523988005997002,
+            "log_loss": 0.32258783511242595
+          },
+          {
+            "version": "v2_5",
+            "task_type": "binary",
+            "status": "success",
+            "accuracy": 0.8173076923076923,
+            "f1": 0.819047619047619,
+            "roc_auc": 0.9553973013493253,
+            "log_loss": 0.32015026851624834
+          },
+          {
+            "version": "v2_6",
+            "task_type": "binary",
+            "status": "success",
+            "accuracy": 0.8269230769230769,
+            "f1": 0.8269230769230769,
+            "roc_auc": 0.9449025487256372,
+            "log_loss": 0.33314505491629054
+          },
+          {
+            "version": "v3",
+            "task_type": "binary",
+            "status": "success",
+            "accuracy": 0.8173076923076923,
+            "f1": 0.8155339805825242,
+            "roc_auc": 0.9479010494752623,
+            "log_loss": 0.3302837173533671
+          }
+        ]
+      },
+      "error_type": null,
+      "error_message": null
+    },
+    {
+      "dataset_name": "blood_transfusion-service-center",
+      "version": "batch",
+      "status": "success",
+      "output_dir": "/home/prime/Documents/g3/tab-r1/Evaluate-TABPFN/pfn3-test/outputs_generation_current_cap/runs/blood_transfusion_service_center/20260520_014821",
+      "metrics": {
+        "rows": [
+          {
+            "version": "v2",
+            "task_type": "binary",
+            "status": "success",
+            "accuracy": 0.7787610619469026,
+            "f1": 0.358974358974359,
+            "roc_auc": 0.7532299741602067,
+            "log_loss": 0.4844953126361438
+          },
+          {
+            "version": "v2_5",
+            "task_type": "binary",
+            "status": "success",
+            "accuracy": 0.7699115044247787,
+            "f1": 0.35,
+            "roc_auc": 0.7527993109388458,
+            "log_loss": 0.4791087664161579
+          },
+          {
+            "version": "v2_6",
+            "task_type": "binary",
+            "status": "success",
+            "accuracy": 0.7610619469026548,
+            "f1": 0.34146341463414637,
+            "roc_auc": 0.7454780361757106,
+            "log_loss": 0.5125303500477825
+          },
+          {
+            "version": "v3",
+            "task_type": "binary",
+            "status": "success",
+            "accuracy": 0.7610619469026548,
+            "f1": 0.3076923076923077,
+            "roc_auc": 0.7472006890611542,
+            "log_loss": 0.4975385588598481
+          }
+        ]
+      },
+      "error_type": null,
+      "error_message": null
+    },
+    {
+      "dataset_name": "car",
+      "version": "batch",
+      "status": "success",
+      "output_dir": "/home/prime/Documents/g3/tab-r1/Evaluate-TABPFN/pfn3-test/outputs_generation_current_cap/runs/car/20260520_014826",
+      "metrics": {
+        "rows": [
+          {
+            "version": "v2",
+            "task_type": "multiclass",
+            "status": "success",
+            "accuracy": 0.9961538461538462,
+            "f1": 0.9859213250517598,
+            "roc_auc": 0.9999573233185388,
+            "log_loss": 0.024379563109114495
+          },
+          {
+            "version": "v2_5",
+            "task_type": "multiclass",
+            "status": "success",
+            "accuracy": 0.9961538461538462,
+            "f1": 0.9859213250517598,
+            "roc_auc": 0.9999786616592694,
+            "log_loss": 0.019890500393404606
+          },
+          {
+            "version": "v2_6",
+            "task_type": "multiclass",
+            "status": "success",
+            "accuracy": 0.9923076923076923,
+            "f1": 0.9718045112781954,
+            "roc_auc": 0.9997506316148856,
+            "log_loss": 0.033441451915561464
+          },
+          {
+            "version": "v3",
+            "task_type": "multiclass",
+            "status": "success",
+            "accuracy": 0.9961538461538462,
+            "f1": 0.9859213250517598,
+            "roc_auc": 1.0,
+            "log_loss": 0.018080760638436312
+          }
+        ]
+      },
+      "error_type": null,
+      "error_message": null
+    },
+    {
+      "dataset_name": "chum",
+      "version": "batch",
+      "status": "success",
+      "output_dir": "/home/prime/Documents/g3/tab-r1/Evaluate-TABPFN/pfn3-test/outputs_generation_current_cap/runs/chum/20260520_014833",
+      "metrics": {
+        "rows": [
+          {
+            "version": "v2",
+            "task_type": "binary",
+            "status": "success",
+            "accuracy": 0.936,
+            "f1": 0.7446808510638298,
+            "roc_auc": 0.9280074416969413,
+            "log_loss": 0.16920292791079342
+          },
+          {
+            "version": "v2_5",
+            "task_type": "binary",
+            "status": "success",
+            "accuracy": 0.9346666666666666,
+            "f1": 0.73224043715847,
+            "roc_auc": 0.9299118129614439,
+            "log_loss": 0.16226651612520407
+          },
+          {
+            "version": "v2_6",
+            "task_type": "binary",
+            "status": "success",
+            "accuracy": 0.9453333333333334,
+            "f1": 0.7875647668393783,
+            "roc_auc": 0.9269673620063283,
+            "log_loss": 0.1657101811306124
+          },
+          {
+            "version": "v3",
+            "task_type": "binary",
+            "status": "success",
+            "accuracy": 0.944,
+            "f1": 0.78125,
+            "roc_auc": 0.9345189265205672,
+            "log_loss": 0.14859592288919013
+          }
+        ]
+      },
+      "error_type": null,
+      "error_message": null
+    },
+    {
+      "dataset_name": "cmc",
+      "version": "batch",
+      "status": "success",
+      "output_dir": "/home/prime/Documents/g3/tab-r1/Evaluate-TABPFN/pfn3-test/outputs_generation_current_cap/runs/cmc/20260520_014845",
+      "metrics": {
+        "rows": [
+          {
+            "version": "v2",
+            "task_type": "multiclass",
+            "status": "success",
+            "accuracy": 0.5882352941176471,
+            "f1": 0.5703165532467631,
+            "roc_auc": 0.7555411899174741,
+            "log_loss": 0.8840879461931677
+          },
+          {
+            "version": "v2_5",
+            "task_type": "multiclass",
+            "status": "success",
+            "accuracy": 0.579185520361991,
+            "f1": 0.5570370370370371,
+            "roc_auc": 0.7532988327636554,
+            "log_loss": 0.8864731828869852
+          },
+          {
+            "version": "v2_6",
+            "task_type": "multiclass",
+            "status": "success",
+            "accuracy": 0.5656108597285068,
+            "f1": 0.5483385874371131,
+            "roc_auc": 0.749895790850934,
+            "log_loss": 0.8944264803788236
+          },
+          {
+            "version": "v3",
+            "task_type": "multiclass",
+            "status": "success",
+            "accuracy": 0.579185520361991,
+            "f1": 0.5601881451881452,
+            "roc_auc": 0.7500686614498105,
+            "log_loss": 0.8883016308609183
+          }
+        ]
+      },
+      "error_type": null,
+      "error_message": null
+    },
+    {
+      "dataset_name": "credit-g",
+      "version": "batch",
+      "status": "success",
+      "output_dir": "/home/prime/Documents/g3/tab-r1/Evaluate-TABPFN/pfn3-test/outputs_generation_current_cap/runs/credit_g/20260520_014852",
+      "metrics": {
+        "rows": [
+          {
+            "version": "v2",
+            "task_type": "binary",
+            "status": "success",
+            "accuracy": 0.7466666666666667,
+            "f1": 0.8272727272727273,
+            "roc_auc": 0.7842328042328042,
+            "log_loss": 0.5002269598417499
+          },
+          {
+            "version": "v2_5",
+            "task_type": "binary",
+            "status": "success",
+            "accuracy": 0.74,
+            "f1": 0.8266666666666667,
+            "roc_auc": 0.7892063492063492,
+            "log_loss": 0.4993782209064193
+          },
+          {
+            "version": "v2_6",
+            "task_type": "binary",
+            "status": "success",
+            "accuracy": 0.74,
+            "f1": 0.8202764976958525,
+            "roc_auc": 0.776084656084656,
+            "log_loss": 0.5112041728358964
+          },
+          {
+            "version": "v3",
+            "task_type": "binary",
+            "status": "success",
+            "accuracy": 0.7533333333333333,
+            "f1": 0.827906976744186,
+            "roc_auc": 0.7877248677248677,
+            "log_loss": 0.5012569973824695
+          }
+        ]
+      },
+      "error_type": null,
+      "error_message": null
+    }
+  ],
+  "counts": {
+    "total": 7,
+    "success": 7,
+    "failed": 0,
+    "missing": 0
+  }
+}

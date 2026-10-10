@@ -1,0 +1,52 @@
+{
+  "dataset_name": "chum",
+  "task_type": "binary",
+  "target_name": "target",
+  "feature_names": [
+    "state",
+    "account_length",
+    "area_code",
+    "phone_number",
+    "international_plan",
+    "voice_mail_plan",
+    "number_vmail_messages",
+    "total_day_minutes",
+    "total_day_calls",
+    "total_day_charge",
+    "total_eve_minutes",
+    "total_eve_calls",
+    "total_eve_charge",
+    "total_night_minutes",
+    "total_night_calls",
+    "total_night_charge",
+    "total_intl_minutes",
+    "total_intl_calls",
+    "total_intl_charge",
+    "number_customer_service_calls"
+  ],
+  "metadata": {
+    "total_samples": 5000,
+    "train_samples": 3500,
+    "val_samples": 750,
+    "test_samples": 750,
+    "n_features": 20,
+    "file_source": "/home/prime/Documents/g3/tab-r1/Accurate_Prediction_on_Small_Dataset_with_TabPFN_Research/Practical Research/Datasets/Datasets from TabPFN Classification/Classification DataSets/chum.csv"
+  },
+  "classification_label_contract": {
+    "task_type": "binary",
+    "classes": [
+      "0",
+      "1"
+    ],
+    "encoded_classes": [
+      0,
+      1
+    ],
+    "positive_label": "1",
+    "positive_index": 1,
+    "probability_columns": [
+      "prob_0",
+      "prob_1"
+    ]
+  }
+}

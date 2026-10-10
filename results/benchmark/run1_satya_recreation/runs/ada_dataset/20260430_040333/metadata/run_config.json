@@ -1,0 +1,12 @@
+{
+  "dataset_path": "/home/prime/Documents/g3/tab-r1/Accurate_Prediction_on_Small_Dataset_with_TabPFN_Research/Practical Research/Datasets/Datasets from TabPFN Classification/Classification DataSets/ada_dataset.csv",
+  "target_column": null,
+  "task_override": null,
+  "seed": 1923251819,
+  "val_size": 0.15,
+  "test_size": 0.15,
+  "autogluon_presets": "medium_quality",
+  "autogluon_time_limit": 60.0,
+  "autogluon_verbosity": 0,
+  "plotting_available": true
+}

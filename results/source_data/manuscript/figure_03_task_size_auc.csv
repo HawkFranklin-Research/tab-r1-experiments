@@ -1,0 +1,17 @@
+scope,endpoint,cancer,n_total,roc_auc
+per_cancer,extreme_os,BRCA,268,0.5612857945672205
+per_cancer,extreme_os,HNSCC,244,0.683733203041832
+per_cancer,extreme_os,LSCC,222,0.5750250868067558
+per_cancer,extreme_os,LUAD,203,0.518406878335867
+per_cancer,os_3yr,BRCA,501,0.5692964547686399
+per_cancer,os_3yr,ESCA,86,0.45101008587372227
+per_cancer,os_3yr,HNSCC,385,0.5757192257252964
+per_cancer,os_3yr,LSCC,355,0.5459883452541929
+per_cancer,os_3yr,LUAD,318,0.5342923149906582
+per_cancer,os_5yr,BRCA,350,0.550106444724145
+per_cancer,os_5yr,HNSCC,286,0.5597847537341116
+per_cancer,os_5yr,LSCC,281,0.573971252272316
+per_cancer,os_5yr,LUAD,251,0.5251132739942304
+pooled,extreme_os,ALL,937,0.7531795286703833
+pooled,os_3yr,ALL,1645,0.6874902296208554
+pooled,os_5yr,ALL,1168,0.7270259057605036

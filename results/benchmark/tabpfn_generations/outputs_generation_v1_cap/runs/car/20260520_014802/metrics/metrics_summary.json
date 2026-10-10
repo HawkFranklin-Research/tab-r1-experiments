@@ -1,0 +1,14 @@
+{
+  "dataset_name": "car",
+  "rows": [
+    {
+      "version": "v1",
+      "task_type": "multiclass",
+      "status": "success",
+      "accuracy": 0.9692307692307692,
+      "f1": 0.9090001341145506,
+      "roc_auc": 0.9967425654743748,
+      "log_loss": 0.0910340534931697
+    }
+  ]
+}

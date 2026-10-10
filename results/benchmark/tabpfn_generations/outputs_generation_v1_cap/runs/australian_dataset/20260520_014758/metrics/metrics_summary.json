@@ -1,0 +1,14 @@
+{
+  "dataset_name": "australian_dataset",
+  "rows": [
+    {
+      "version": "v1",
+      "task_type": "binary",
+      "status": "success",
+      "accuracy": 0.8076923076923077,
+      "f1": 0.8113207547169812,
+      "roc_auc": 0.944527736131934,
+      "log_loss": 0.3417918258209198
+    }
+  ]
+}

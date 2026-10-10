@@ -1,0 +1,19 @@
+endpoint,comparator,roc_auc,setting
+os_3yr,Best foundation model,0.7205063393466774,benchmark
+os_3yr,Best tree ensemble,0.7159593466887146,benchmark
+os_3yr,Cancer type only,0.7073022312373225,historical
+os_3yr,Zero pattern only,0.7449628127112913,historical
+os_3yr,Labels shuffled within cancer,0.666521906693712,historical
+os_3yr,Held-out cancer (linear),0.478850444707758,historical
+os_5yr,Best foundation model,0.7542922092489522,benchmark
+os_5yr,Best tree ensemble,0.748541691990633,benchmark
+os_5yr,Cancer type only,0.7027249075722306,historical
+os_5yr,Zero pattern only,0.7038888128166506,historical
+os_5yr,Labels shuffled within cancer,0.6525567574969191,historical
+os_5yr,Held-out cancer (linear),0.5075421262907214,historical
+extreme_os,Best foundation model,0.7861943445707738,benchmark
+extreme_os,Best tree ensemble,0.7818914053267046,benchmark
+extreme_os,Cancer type only,0.8094505494505495,historical
+extreme_os,Zero pattern only,0.8241758241758241,historical
+extreme_os,Labels shuffled within cancer,0.6616668131868132,historical
+extreme_os,Held-out cancer (linear),0.5176497063627954,historical

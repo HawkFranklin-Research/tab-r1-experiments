@@ -1,0 +1,12 @@
+model_name,model,family,mean,std
+autogluon,AutoGluon,AutoML,-0.01164938814899684,0.10273533907386811
+catboost,CatBoost,Boosted tree,-0.0024109109005195505,0.05840123779706118
+lightgbm,LightGBM,Boosted tree,-0.006871003292950636,0.0792363023414674
+logistic_regression,Logistic regression,Linear,-0.03687500847850809,0.1343823584923269
+random_forest,Random forest,Tree ensemble,0.0,0.0
+tabfm_default,TabFM,Foundation model,0.003575023257472561,0.09668984654692014
+tabpfn_v2,TabPFN v2,Foundation model,0.00664367344240444,0.09668024159011418
+tabpfn_v2_5,TabPFN v2.5,Foundation model,0.0064546312143435,0.08751658504976105
+tabpfn_v2_6,TabPFN v2.6,Foundation model,0.004522432953819588,0.09549780899156861
+tabpfn_v3,TabPFN v3,Foundation model,0.00140027244576174,0.09172993388608221
+xgboost,XGBoost,Boosted tree,-0.004338864622431862,0.07993413702761412

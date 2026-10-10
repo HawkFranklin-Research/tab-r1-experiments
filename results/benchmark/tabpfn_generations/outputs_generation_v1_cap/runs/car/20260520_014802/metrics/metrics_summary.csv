@@ -1,0 +1,2 @@
+version,task_type,status,accuracy,f1,roc_auc,log_loss
+v1,multiclass,success,0.9692307692307692,0.9090001341145506,0.9967425654743748,0.0910340534931697

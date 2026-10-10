@@ -1,0 +1,9 @@
+{
+  "bootstrap_iterations": 2000,
+  "seed": 42,
+  "threads": 12,
+  "memory_gb": 12,
+  "smoke": false,
+  "foundation_models_executed": false,
+  "controls_executed": true
+}

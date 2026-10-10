@@ -1,0 +1,41 @@
+{
+  "dataset_name": "car",
+  "rows": [
+    {
+      "version": "v2",
+      "task_type": "multiclass",
+      "status": "success",
+      "accuracy": 0.9961538461538462,
+      "f1": 0.9859213250517598,
+      "roc_auc": 0.9999573233185388,
+      "log_loss": 0.024379563109114495
+    },
+    {
+      "version": "v2_5",
+      "task_type": "multiclass",
+      "status": "success",
+      "accuracy": 0.9961538461538462,
+      "f1": 0.9859213250517598,
+      "roc_auc": 0.9999786616592694,
+      "log_loss": 0.019890500393404606
+    },
+    {
+      "version": "v2_6",
+      "task_type": "multiclass",
+      "status": "success",
+      "accuracy": 0.9923076923076923,
+      "f1": 0.9718045112781954,
+      "roc_auc": 0.9997506316148856,
+      "log_loss": 0.033441451915561464
+    },
+    {
+      "version": "v3",
+      "task_type": "multiclass",
+      "status": "success",
+      "accuracy": 0.9961538461538462,
+      "f1": 0.9859213250517598,
+      "roc_auc": 1.0,
+      "log_loss": 0.018080760638436312
+    }
+  ]
+}

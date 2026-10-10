@@ -1,0 +1,157 @@
+{
+  "runs": [
+    {
+      "dataset_name": "ada_dataset",
+      "version": "batch",
+      "status": "success",
+      "output_dir": "/home/prime/Documents/g3/tab-r1/Evaluate-TABPFN/pfn3-test/outputs_generation_v1_cap/runs/ada_dataset/20260520_014749",
+      "metrics": {
+        "rows": [
+          {
+            "version": "v1",
+            "task_type": "binary",
+            "status": "success",
+            "accuracy": 0.8475120385232745,
+            "f1": 0.6666666666666666,
+            "roc_auc": 0.9009511993382961,
+            "log_loss": 0.3460284717477302
+          }
+        ]
+      },
+      "error_type": null,
+      "error_message": null
+    },
+    {
+      "dataset_name": "australian_dataset",
+      "version": "batch",
+      "status": "success",
+      "output_dir": "/home/prime/Documents/g3/tab-r1/Evaluate-TABPFN/pfn3-test/outputs_generation_v1_cap/runs/australian_dataset/20260520_014758",
+      "metrics": {
+        "rows": [
+          {
+            "version": "v1",
+            "task_type": "binary",
+            "status": "success",
+            "accuracy": 0.8076923076923077,
+            "f1": 0.8113207547169812,
+            "roc_auc": 0.944527736131934,
+            "log_loss": 0.3417918258209198
+          }
+        ]
+      },
+      "error_type": null,
+      "error_message": null
+    },
+    {
+      "dataset_name": "blood_transfusion-service-center",
+      "version": "batch",
+      "status": "success",
+      "output_dir": "/home/prime/Documents/g3/tab-r1/Evaluate-TABPFN/pfn3-test/outputs_generation_v1_cap/runs/blood_transfusion_service_center/20260520_014801",
+      "metrics": {
+        "rows": [
+          {
+            "version": "v1",
+            "task_type": "binary",
+            "status": "success",
+            "accuracy": 0.7876106194690266,
+            "f1": 0.42857142857142855,
+            "roc_auc": 0.7510766580534023,
+            "log_loss": 0.4986029708977748
+          }
+        ]
+      },
+      "error_type": null,
+      "error_message": null
+    },
+    {
+      "dataset_name": "car",
+      "version": "batch",
+      "status": "success",
+      "output_dir": "/home/prime/Documents/g3/tab-r1/Evaluate-TABPFN/pfn3-test/outputs_generation_v1_cap/runs/car/20260520_014802",
+      "metrics": {
+        "rows": [
+          {
+            "version": "v1",
+            "task_type": "multiclass",
+            "status": "success",
+            "accuracy": 0.9692307692307692,
+            "f1": 0.9090001341145506,
+            "roc_auc": 0.9967425654743748,
+            "log_loss": 0.0910340534931697
+          }
+        ]
+      },
+      "error_type": null,
+      "error_message": null
+    },
+    {
+      "dataset_name": "chum",
+      "version": "batch",
+      "status": "success",
+      "output_dir": "/home/prime/Documents/g3/tab-r1/Evaluate-TABPFN/pfn3-test/outputs_generation_v1_cap/runs/chum/20260520_014806",
+      "metrics": {
+        "rows": [
+          {
+            "version": "v1",
+            "task_type": "binary",
+            "status": "success",
+            "accuracy": 0.928,
+            "f1": 0.7,
+            "roc_auc": 0.9214080628149537,
+            "log_loss": 0.19920281959733263
+          }
+        ]
+      },
+      "error_type": null,
+      "error_message": null
+    },
+    {
+      "dataset_name": "cmc",
+      "version": "batch",
+      "status": "success",
+      "output_dir": "/home/prime/Documents/g3/tab-r1/Evaluate-TABPFN/pfn3-test/outputs_generation_v1_cap/runs/cmc/20260520_014812",
+      "metrics": {
+        "rows": [
+          {
+            "version": "v1",
+            "task_type": "multiclass",
+            "status": "success",
+            "accuracy": 0.5746606334841629,
+            "f1": 0.5388439501179643,
+            "roc_auc": 0.7474718193608337,
+            "log_loss": 0.9047298187087158
+          }
+        ]
+      },
+      "error_type": null,
+      "error_message": null
+    },
+    {
+      "dataset_name": "credit-g",
+      "version": "batch",
+      "status": "success",
+      "output_dir": "/home/prime/Documents/g3/tab-r1/Evaluate-TABPFN/pfn3-test/outputs_generation_v1_cap/runs/credit_g/20260520_014815",
+      "metrics": {
+        "rows": [
+          {
+            "version": "v1",
+            "task_type": "binary",
+            "status": "success",
+            "accuracy": 0.7266666666666667,
+            "f1": 0.8209606986899564,
+            "roc_auc": 0.773968253968254,
+            "log_loss": 0.5019925111957755
+          }
+        ]
+      },
+      "error_type": null,
+      "error_message": null
+    }
+  ],
+  "counts": {
+    "total": 7,
+    "success": 7,
+    "failed": 0,
+    "missing": 0
+  }
+}

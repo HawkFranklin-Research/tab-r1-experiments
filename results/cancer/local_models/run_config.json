@@ -1,0 +1,17 @@
+{
+  "fold_manifest": "/home/prime/Documents/g3/tab-r1/paper/analysis/generated_folds/fold_manifest.csv",
+  "models": [
+    "logistic_regression",
+    "random_forest",
+    "catboost",
+    "xgboost",
+    "lightgbm"
+  ],
+  "seed": 42,
+  "threads": 12,
+  "memory_gb": 12,
+  "tabfm_backend": "pytorch",
+  "autogluon_time_limit": 300,
+  "smoke": false,
+  "confirmed_full_run": true
+}

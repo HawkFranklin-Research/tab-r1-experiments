@@ -1,0 +1,51 @@
+{
+  "tabpfn": {
+    "status": "success",
+    "error_type": null,
+    "error_message": null,
+    "artifact_status": "success",
+    "plot_status": "success"
+  },
+  "random_forest": {
+    "status": "success",
+    "error_type": null,
+    "error_message": null,
+    "artifact_status": "success",
+    "plot_status": "success"
+  },
+  "logistic_regression": {
+    "status": "success",
+    "error_type": null,
+    "error_message": null,
+    "artifact_status": "success",
+    "plot_status": "success"
+  },
+  "catboost": {
+    "status": "success",
+    "error_type": null,
+    "error_message": null,
+    "artifact_status": "success",
+    "plot_status": "success"
+  },
+  "xgboost": {
+    "status": "success",
+    "error_type": null,
+    "error_message": null,
+    "artifact_status": "success",
+    "plot_status": "success"
+  },
+  "lightgbm": {
+    "status": "success",
+    "error_type": null,
+    "error_message": null,
+    "artifact_status": "success",
+    "plot_status": "success"
+  },
+  "autogluon": {
+    "status": "success",
+    "error_type": null,
+    "error_message": null,
+    "artifact_status": "success",
+    "plot_status": "success"
+  }
+}

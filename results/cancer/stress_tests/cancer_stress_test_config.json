@@ -1,0 +1,9 @@
+{
+  "permutations": 500,
+  "seed": 42,
+  "threads": 12,
+  "memory_gb": 12,
+  "smoke": false,
+  "foundation_models_executed": false,
+  "feature_space": "existing preselected pooled feature space"
+}

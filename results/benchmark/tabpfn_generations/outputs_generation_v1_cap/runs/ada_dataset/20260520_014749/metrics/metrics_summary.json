@@ -1,0 +1,14 @@
+{
+  "dataset_name": "ada_dataset",
+  "rows": [
+    {
+      "version": "v1",
+      "task_type": "binary",
+      "status": "success",
+      "accuracy": 0.8475120385232745,
+      "f1": 0.6666666666666666,
+      "roc_auc": 0.9009511993382961,
+      "log_loss": 0.3460284717477302
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+figure,source_table,generator
+Figure 1,paper/figures/source_data/figure_01_cohort_flow.csv,paper/analysis/build_manuscript_assets.py
+Figure 1,paper/figures/source_data/figure_01_class_counts.csv,paper/analysis/build_manuscript_assets.py
+Figure 1,paper/figures/source_data/figure_01_modality_composition.csv,paper/analysis/build_manuscript_assets.py
+Figure 2,paper/figures/source_data/figure_02_within_cancer_model_summary.csv,paper/analysis/build_manuscript_assets.py
+Figure 2,paper/figures/source_data/figure_02_within_cancer_auc_heatmap.csv,paper/analysis/build_manuscript_assets.py
+Figure 2,paper/figures/source_data/figure_02_paired_auc_delta.csv,paper/analysis/build_manuscript_assets.py
+Figure 2,paper/figures/source_data/figure_02_pr_auc_lift.csv,paper/analysis/build_manuscript_assets.py
+Figure 2,paper/figures/source_data/figure_02_runtime_pareto.csv,paper/analysis/build_manuscript_assets.py
+Figure 3,paper/figures/source_data/figure_03_patient_oof_predictions.csv,paper/analysis/build_manuscript_assets.py
+Figure 3,paper/figures/source_data/figure_03_roc_curves.csv,paper/analysis/build_manuscript_assets.py
+Figure 3,paper/figures/source_data/figure_03_pr_curves.csv,paper/analysis/build_manuscript_assets.py
+Figure 3,paper/figures/source_data/figure_03_pooling_shift.csv,paper/analysis/build_manuscript_assets.py
+Figure 3,paper/figures/source_data/figure_03_pooled_auc_heatmap.csv,paper/analysis/build_manuscript_assets.py
+Figure 3,paper/figures/source_data/figure_03_pooled_subgroup_auc.csv,paper/analysis/build_manuscript_assets.py
+Figure 3,paper/figures/source_data/figure_03_within_cancer_pooling_contrast.csv,paper/analysis/build_manuscript_assets.py
+Figure 3,paper/figures/source_data/figure_03_within_cancer_pooling_summary.csv,paper/analysis/build_manuscript_assets.py
+Figure 3,paper/figures/source_data/figure_03_task_size_auc.csv,paper/analysis/build_manuscript_assets.py
+Figure 4,paper/figures/source_data/figure_04_shortcut_controls.csv,paper/analysis/build_manuscript_assets.py
+Figure 4,paper/figures/source_data/figure_04_cohort_separability.csv,paper/analysis/build_manuscript_assets.py
+Figure 4,paper/figures/source_data/figure_04_heldout_diagnostics.csv,paper/analysis/build_manuscript_assets.py
+Figure 4,paper/figures/source_data/figure_04_permutation_distributions.csv,paper/analysis/build_manuscript_assets.py
+Figure 4,paper/figures/source_data/figure_04_model_minus_shortcut.csv,paper/analysis/build_manuscript_assets.py
+Figure 5,paper/figures/source_data/figure_05_calibration_curves.csv,paper/analysis/build_manuscript_assets.py
+Figure 5,paper/figures/source_data/figure_05_pooled_probabilistic_metrics.csv,paper/analysis/build_manuscript_assets.py
+Figure 5,paper/figures/source_data/figure_05_feature_modalities_across_folds.csv,paper/analysis/build_manuscript_assets.py
+Figure 5,paper/figures/source_data/figure_05_runtime.csv,paper/analysis/build_manuscript_assets.py

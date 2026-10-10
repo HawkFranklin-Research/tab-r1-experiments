@@ -1,0 +1,14 @@
+{
+  "dataset_name": "cmc",
+  "rows": [
+    {
+      "version": "v1",
+      "task_type": "multiclass",
+      "status": "success",
+      "accuracy": 0.5746606334841629,
+      "f1": 0.5388439501179643,
+      "roc_auc": 0.7474718193608337,
+      "log_loss": 0.9047298187087158
+    }
+  ]
+}

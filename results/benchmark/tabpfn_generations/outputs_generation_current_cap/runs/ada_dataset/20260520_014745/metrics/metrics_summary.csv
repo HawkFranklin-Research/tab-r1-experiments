@@ -1,0 +1,24 @@
+version,task_type,status,accuracy,f1,roc_auc,log_loss,error_type,error_message
+v2,binary,success,0.8539325842696629,0.6690909090909091,0.9158533223049352,0.3123081617972986,,
+v2_5,binary,success,0.85553772070626,0.6762589928057554,0.9143300248138958,0.3154956755498573,,
+v2_6,binary,success,0.8619582664526485,0.6906474820143885,0.9108147229114971,0.3207084601874339,,
+v3,binary,failed,,,,,TabPFNCUDAOutOfMemoryError,"CUDA out of memory with 623 test samples.
+
+This is issue is usually caused by one of the following two reasons:
+
+1) Large test set — split into batches:
+
+    predictions = []
+    for i in range(0, len(X_test), 100):
+        pred = model.predict_proba(X_test[i:i + 100])
+        predictions.append(pred)
+    predictions = np.vstack(predictions)
+
+2) Large training set — batching won't help.
+   Subsample your training data; see https://docs.priorlabs.ai
+   for further guidance.
+
+Your sizes: 1,024 train / 623 test samples, 48 features.
+Not sure which? If model.predict_proba(X_test[:1]) also fails, it's (2).
+
+Original error: CUDA out of memory. Tried to allocate 50.00 MiB. GPU 0 has a total capacity of 3.68 GiB of which 40.94 MiB is free. Including non-PyTorch memory, this process has 742.00 MiB memory in use. Process 29417 has 2.87 GiB memory in use. Of the allocated memory 510.20 MiB is allocated by PyTorch, and 81.80 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)"

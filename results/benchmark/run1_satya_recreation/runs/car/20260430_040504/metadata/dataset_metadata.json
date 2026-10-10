@@ -1,0 +1,21 @@
+{
+  "dataset_name": "car",
+  "task_type": "multiclass",
+  "target_name": "target",
+  "feature_names": [
+    "buying",
+    "maint",
+    "doors",
+    "persons",
+    "lug_boot",
+    "safety"
+  ],
+  "metadata": {
+    "total_samples": 1728,
+    "train_samples": 1208,
+    "val_samples": 260,
+    "test_samples": 260,
+    "n_features": 6,
+    "file_source": "/home/prime/Documents/g3/tab-r1/Accurate_Prediction_on_Small_Dataset_with_TabPFN_Research/Practical Research/Datasets/Datasets from TabPFN Classification/Classification DataSets/car.csv"
+  }
+}

@@ -1,0 +1,12 @@
+model_name,model,family,roc_auc,median_time_s
+autogluon,AutoGluon,AutoML,0.5476177664150852,3.8963279439994953
+catboost,CatBoost,Boosted tree,0.5568562436635625,1.4921756189978623
+lightgbm,LightGBM,Boosted tree,0.5523961512711314,0.060833106002973994
+logistic_regression,Logistic regression,Linear,0.5223921460855739,0.0143253310016006
+random_forest,Random forest,Tree ensemble,0.559267154564082,0.42238362999705703
+tabfm_default,TabFM,Foundation model,0.5628421778215547,2.5918654119996063
+tabpfn_v2,TabPFN v2,Foundation model,0.5659108280064865,4.233229834000667
+tabpfn_v2_5,TabPFN v2.5,Foundation model,0.5657217857784256,5.036332856998342
+tabpfn_v2_6,TabPFN v2.6,Foundation model,0.5637895875179016,5.314741624999442
+tabpfn_v3,TabPFN v3,Foundation model,0.5606674270098437,4.887588751998919
+xgboost,XGBoost,Boosted tree,0.5549282899416502,0.1317937389976577
