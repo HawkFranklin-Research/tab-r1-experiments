@@ -328,7 +328,7 @@ def main() -> int:
     parser = argparse.ArgumentParser(
         description="Analyze saved cancer predictions and run lightweight shortcut controls."
     )
-    parser.add_argument("--output-dir", default=str(ROOT / "paper" / "tables" / "source_data"))
+    parser.add_argument("--output-dir", default=str(RESULTS / "cancer/shortcut_controls"))
     parser.add_argument("--bootstrap-iterations", type=int, default=2000)
     parser.add_argument("--seed", type=int, default=42)
     parser.add_argument("--threads", type=int, default=12)

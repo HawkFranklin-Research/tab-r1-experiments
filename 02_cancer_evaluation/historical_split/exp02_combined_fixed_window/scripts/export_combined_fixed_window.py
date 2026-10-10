@@ -8,7 +8,7 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
-SHARED = Path("/home/prime/Documents/g3/cancer-os-exp/shared/scripts")
+SHARED = Path(__file__).resolve().parents[2] / "shared/scripts"
 if str(SHARED) not in sys.path:
     sys.path.insert(0, str(SHARED))
 
@@ -28,7 +28,7 @@ from os_exp_common import (  # noqa: E402
 )
 
 
-DEFAULT_OUTPUT_DIR = Path("/home/prime/Documents/g3/cancer-os-exp/exp02_combined_fixed_window/datasets")
+DEFAULT_OUTPUT_DIR = Path(__file__).resolve().parents[1] / "datasets"
 
 
 def _has_min_class_count(y: pd.Series, min_class_count: int) -> bool:

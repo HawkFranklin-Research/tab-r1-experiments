@@ -57,7 +57,7 @@ from tabr1_paths import REPO, RESULTS, FROZEN, TRAIN_READY
         'ROOT / "package" / "src"': 'REPO / "ev_tabpfn/src"',
         'ROOT / "Evaluate-TABPFN"': 'REPO / "01_benchmark_reproduction/evaluator"',
         'ROOT / "cancer-os-exp"': 'REPO / "02_cancer_evaluation/historical_split"',
-        'Path("/home/prime/Documents/g3/c-5/gpt/processed/train_ready")': 'TRAIN_READY',
+        'Path("../c-5/gpt/processed/train_ready")': 'TRAIN_READY',
         'ROOT / "paper" / "analysis" / "generated_folds"': 'FROZEN',
         'PAPER / "analysis/generated_folds"': 'FROZEN',
         'ANALYSIS / "generated_folds"': 'FROZEN',

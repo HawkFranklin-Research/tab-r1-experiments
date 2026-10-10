@@ -1,16 +1,20 @@
 # Data and redistribution
 
-Original molecular and clinical data originate from TCGA and CPTAC resources.
-Consult GDC, PDC and cBioPortal and comply with each source's access conditions;
-this repository does not confer rights to controlled-access material.
+The owner confirmed public redistribution on 11 October 2026. TCGA inputs came
+from cBioPortal PanCancer Atlas 2018 public studies; CPTAC inputs from LinkedOmics
+public downloads; survival outcomes from the public TCGA Pan-Cancer Clinical
+Data Resource. No login, data-access agreement, identifying information or
+controlled-access files were involved, as confirmed by the owner. Upstream terms
+still apply; the code licence does not relicense upstream data.
 
 `data/frozen_test_sets` holds the original 400 patient-grouped evaluation splits,
 selected features, clinical test metadata and checksum manifests. Predictions
 are stored under `results/cancer/local_models` and `cloud_models/tabr1_results`.
-Public redistribution of these patient-level artifacts requires the data owner's
-confirmation that all inputs are permitted for redistribution and contain no
-identifying or controlled-access information. No figshare DOI is claimed until a
-deposit exists. The original Hugging Face endpoint is not assumed accessible.
+These artifacts are included in the GitHub working copy. See `data/README.md`
+for layout, provenance and checksum information. Hugging Face is not a release
+destination, and its old dataset is not modified.
+
+Archived copy: figshare, doi: (added after deposit).
 
 Raw preprocessing expects a project root with `tcga-5` and `cptac-5` downloads;
 its documentation describes the inputs and sparse `train_ready` outputs.

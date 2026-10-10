@@ -2,6 +2,10 @@
 
 See RELEASE_STATUS.md for current artifact availability and verification limits.
 
+The frozen test sets and saved results are included under `data/` and `results/`;
+the owner has confirmed that their inputs were public, de-identified downloads.
+Archived copy: figshare, doi: (added after deposit).
+
 Code and derived artifacts for evaluating tabular foundation models on small-data
 benchmarks and fixed-horizon cancer survival classification. This repository
 contains no manuscript, cover letter, literature collection, model weights or

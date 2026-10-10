@@ -1,14 +1,15 @@
 import sys
+from pathlib import Path
 import os
 import pandas as pd
 
 # Add the script directory to the path
-sys.path.append("/home/prime/Documents/g3/tab-r1/Evaluate-TABPFN/scripts/phase1")
+sys.path.append(str(Path(__file__).resolve().parent))
 from data_loader import DataLoader
 
 def test_real_data():
     loader = DataLoader(seed=42)
-    base_dir = "/home/prime/Documents/g3/tab-r1/Accurate_Prediction_on_Small_Dataset_with_TabPFN_Research/Practical Research/Datasets/Datasets from TabPFN Classification/Classification DataSets/"
+    base_dir = str(Path(__file__).resolve().parents[3] / "datasets")
     
     datasets = [
         ("ada_dataset.csv", "binary"),

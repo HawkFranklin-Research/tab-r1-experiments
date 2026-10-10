@@ -255,7 +255,7 @@ def fit_autogluon(
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Run fold-matched classical baselines for the TABR1 manuscript.")
-    parser.add_argument("--output-dir", default=str(ROOT / "paper" / "tables" / "source_data"))
+    parser.add_argument("--output-dir", default=str(RESULTS / "benchmark/matched_baselines"))
     parser.add_argument("--seed", type=int, default=42)
     parser.add_argument("--max-train-rows", type=int, default=1024)
     parser.add_argument("--threads", type=int, default=12)

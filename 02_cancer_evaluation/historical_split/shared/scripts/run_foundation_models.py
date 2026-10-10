@@ -12,7 +12,7 @@ import numpy as np
 import pandas as pd
 from sklearn.metrics import average_precision_score, balanced_accuracy_score, recall_score
 
-SHARED = Path("/home/prime/Documents/g3/cancer-os-exp/shared/scripts")
+SHARED = Path(__file__).resolve().parents[2] / "shared/scripts"
 if str(SHARED) not in sys.path:
     sys.path.insert(0, str(SHARED))
 

@@ -1,3 +1,4 @@
+from pathlib import Path
 import os
 import json
 import pandas as pd
@@ -133,8 +134,8 @@ class Aggregator:
 if __name__ == "__main__":
     import argparse
     parser = argparse.ArgumentParser(description="Phase 3 Aggregator")
-    parser.add_argument("--runs_root", type=str, default="/home/prime/Documents/g3/tab-r1/results-s2/runs")
-    parser.add_argument("--results_dir", type=str, default="/home/prime/Documents/g3/tab-r1/results-s2/results")
+    parser.add_argument("--runs_root", type=str, default=str(Path(__file__).resolve().parents[4] / "results/benchmark/run2_batch_s2/runs"))
+    parser.add_argument("--results_dir", type=str, default=str(Path(__file__).resolve().parents[4] / "results/benchmark/run2_batch_s2/results"))
     args = parser.parse_args()
     
     agg = Aggregator(args.runs_root, args.results_dir)

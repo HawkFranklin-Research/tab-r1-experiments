@@ -189,7 +189,7 @@ def permutation_tests(
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Run cohort and label-permutation stress tests.")
-    parser.add_argument("--output-dir", default=str(ROOT / "paper" / "tables" / "source_data"))
+    parser.add_argument("--output-dir", default=str(RESULTS / "cancer/stress_tests"))
     parser.add_argument("--permutations", type=int, default=500)
     parser.add_argument("--seed", type=int, default=42)
     parser.add_argument("--threads", type=int, default=12)

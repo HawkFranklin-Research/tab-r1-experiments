@@ -1,0 +1,102 @@
+[
+  {
+    "step": "venv",
+    "exit_code": 0,
+    "seconds": 1.82
+  },
+  {
+    "step": "install",
+    "exit_code": 0,
+    "seconds": 1.82
+  },
+  {
+    "step": "compile",
+    "exit_code": 0,
+    "seconds": 0.37
+  },
+  {
+    "step": "tests",
+    "exit_code": 1,
+    "seconds": 8.88
+  },
+  {
+    "step": "rebuild",
+    "exit_code": 0,
+    "seconds": 62.23
+  },
+  {
+    "step": "compare",
+    "exit_code": 0,
+    "seconds": 0.72
+  },
+  {
+    "step": "folds_brca",
+    "exit_code": 0,
+    "seconds": 6.58
+  },
+  {
+    "step": "classical",
+    "exit_code": 0,
+    "seconds": 4.48
+  },
+  {
+    "step": "autogluon",
+    "exit_code": 0,
+    "seconds": 8.18
+  },
+  {
+    "step": "foundation",
+    "exit_code": 0,
+    "seconds": 53.78
+  },
+  {
+    "step": "stress",
+    "exit_code": 0,
+    "seconds": 2.12
+  },
+  {
+    "step": "saved",
+    "exit_code": 0,
+    "seconds": 2.37
+  },
+  {
+    "step": "landscape",
+    "exit_code": 0,
+    "seconds": 4.15
+  },
+  {
+    "step": "provenance",
+    "exit_code": 0,
+    "seconds": 0.42
+  },
+  {
+    "step": "benchmark",
+    "exit_code": 1,
+    "seconds": 84.78
+  },
+  {
+    "step": "preparation_help",
+    "exit_code": 0,
+    "seconds": 2.48
+  },
+  {
+    "step": "preparation_import",
+    "exit_code": 0,
+    "seconds": 2.58
+  },
+  {
+    "step": "classical_pooled",
+    "exit_code": 0,
+    "seconds": 4.02
+  },
+  {
+    "step": "autogluon_pooled",
+    "exit_code": -6,
+    "seconds": 4.92
+  },
+  {
+    "step": "foundation_pooled",
+    "exit_code": 0,
+    "seconds": 54.21
+  }
+]

@@ -190,7 +190,7 @@ def cohort_separability(
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Build machine-readable cancer landscape source tables.")
-    parser.add_argument("--output-dir", default=str(ROOT / "paper" / "tables" / "source_data" / "landscape"))
+    parser.add_argument("--output-dir", default=str(RESULTS / "cancer/landscape"))
     parser.add_argument("--seed", type=int, default=42)
     parser.add_argument("--threads", type=int, default=12)
     parser.add_argument("--memory-gb", type=int, default=12)

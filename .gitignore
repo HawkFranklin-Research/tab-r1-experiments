@@ -3,6 +3,8 @@ __pycache__/
 .pytest_cache/
 scratch/
 plan.md
+instructions_release_v1.md
+release_audit/source_path_changes.diff
 *.pkl
 *.ubj
 *.pth

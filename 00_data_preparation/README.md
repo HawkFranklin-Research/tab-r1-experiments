@@ -3,8 +3,8 @@
 This folder contains the preprocessing work for organizing the local raw multiomics cohorts:
 
 ```text
-/home/prime/Documents/g3/c-5/cptac-5
-/home/prime/Documents/g3/c-5/tcga-5
+${TABR1_DATA_ROOT}/cptac-5
+${TABR1_DATA_ROOT}/tcga-5
 ```
 
 The goal is to convert heterogeneous raw CPTAC/LinkedOmics and TCGA/cBioPortal files into machine-learning-ready matrices and graph-ready tensors while preserving provenance, clinical targets, sample identity, missingness, and modality metadata.
@@ -500,54 +500,54 @@ Run the full pipeline:
 
 ```bash
 python gpt/preprocess_multiomics.py all \
-  --project-root /home/prime/Documents/g3/c-5 \
-  --out-dir /home/prime/Documents/g3/c-5/gpt/processed
+  --project-root ${TABR1_DATA_ROOT} \
+  --out-dir ${TABR1_DATA_ROOT}/gpt/processed
 ```
 
 Run individual stages:
 
 ```bash
 python gpt/preprocess_multiomics.py inventory \
-  --project-root /home/prime/Documents/g3/c-5 \
-  --out-dir /home/prime/Documents/g3/c-5/gpt/processed
+  --project-root ${TABR1_DATA_ROOT} \
+  --out-dir ${TABR1_DATA_ROOT}/gpt/processed
 ```
 
 ```bash
 python gpt/preprocess_multiomics.py reference \
-  --project-root /home/prime/Documents/g3/c-5 \
-  --out-dir /home/prime/Documents/g3/c-5/gpt/processed
+  --project-root ${TABR1_DATA_ROOT} \
+  --out-dir ${TABR1_DATA_ROOT}/gpt/processed
 ```
 
 ```bash
 python gpt/preprocess_multiomics.py harmonize \
-  --project-root /home/prime/Documents/g3/c-5 \
-  --out-dir /home/prime/Documents/g3/c-5/gpt/processed
+  --project-root ${TABR1_DATA_ROOT} \
+  --out-dir ${TABR1_DATA_ROOT}/gpt/processed
 ```
 
 ```bash
 python gpt/preprocess_multiomics.py clinical \
-  --project-root /home/prime/Documents/g3/c-5 \
-  --out-dir /home/prime/Documents/g3/c-5/gpt/processed
+  --project-root ${TABR1_DATA_ROOT} \
+  --out-dir ${TABR1_DATA_ROOT}/gpt/processed
 ```
 
 ```bash
 python gpt/preprocess_multiomics.py train-ready \
-  --project-root /home/prime/Documents/g3/c-5 \
-  --out-dir /home/prime/Documents/g3/c-5/gpt/processed
+  --project-root ${TABR1_DATA_ROOT} \
+  --out-dir ${TABR1_DATA_ROOT}/gpt/processed
 ```
 
 ```bash
 python gpt/preprocess_multiomics.py validate \
-  --project-root /home/prime/Documents/g3/c-5 \
-  --out-dir /home/prime/Documents/g3/c-5/gpt/processed
+  --project-root ${TABR1_DATA_ROOT} \
+  --out-dir ${TABR1_DATA_ROOT}/gpt/processed
 ```
 
 Graph export:
 
 ```bash
 python gpt/preprocess_multiomics.py graphs \
-  --project-root /home/prime/Documents/g3/c-5 \
-  --out-dir /home/prime/Documents/g3/c-5/gpt/processed \
+  --project-root ${TABR1_DATA_ROOT} \
+  --out-dir ${TABR1_DATA_ROOT}/gpt/processed \
   --graph-max-nodes 500
 ```
 
@@ -873,16 +873,16 @@ If the graph model does not beat or complement these baselines under cross-cohor
 
 ```bash
 python gpt/preprocess_multiomics.py train-ready \
-  --project-root /home/prime/Documents/g3/c-5 \
-  --out-dir /home/prime/Documents/g3/c-5/gpt/processed
+  --project-root ${TABR1_DATA_ROOT} \
+  --out-dir ${TABR1_DATA_ROOT}/gpt/processed
 ```
 
 2. Rerun validation:
 
 ```bash
 python gpt/preprocess_multiomics.py validate \
-  --project-root /home/prime/Documents/g3/c-5 \
-  --out-dir /home/prime/Documents/g3/c-5/gpt/processed
+  --project-root ${TABR1_DATA_ROOT} \
+  --out-dir ${TABR1_DATA_ROOT}/gpt/processed
 ```
 
 3. Start modeling with clinical-only and single-omics baselines before graph models.

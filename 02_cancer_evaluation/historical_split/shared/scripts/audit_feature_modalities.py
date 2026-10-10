@@ -21,7 +21,7 @@ from os_exp_common import (  # noqa: E402
 )
 
 
-DEFAULT_REPORTS_DIR = Path("/home/prime/Documents/g3/cancer-os-exp/shared/reports")
+DEFAULT_REPORTS_DIR = Path(__file__).resolve().parents[1] / "reports"
 
 
 def _prefix_counts(feature_ids: pd.Series) -> dict[str, int]:

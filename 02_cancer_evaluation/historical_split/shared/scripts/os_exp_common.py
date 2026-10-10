@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import os
 from dataclasses import asdict, dataclass
 from pathlib import Path
 from typing import Any
@@ -10,8 +11,8 @@ import pandas as pd
 from scipy import sparse
 
 
-DEFAULT_INPUT_ROOT = Path("/home/prime/Documents/g3/c-5/gpt/processed/train_ready")
-DEFAULT_PACKAGE_SRC = Path("/home/prime/Documents/g3/tab-r1/package/src")
+DEFAULT_INPUT_ROOT = Path(os.environ.get("TABR1_TRAIN_READY", Path(__file__).resolve().parents[4] / "data/raw/gpt/processed/train_ready"))
+DEFAULT_PACKAGE_SRC = Path(__file__).resolve().parents[4] / "ev_tabpfn/src"
 WINDOWS_DAYS = {"os_3yr": 3 * 365, "os_5yr": 5 * 365}
 EXTREME_EARLY_DEATH_DAYS = 3 * 365
 EXTREME_LONG_SURVIVAL_DAYS = 5 * 365

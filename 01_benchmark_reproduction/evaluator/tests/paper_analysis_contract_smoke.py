@@ -9,8 +9,8 @@ import pandas as pd
 from scipy import sparse
 
 
-ROOT = Path(__file__).resolve().parents[2]
-ANALYSIS = ROOT / "paper" / "analysis"
+ROOT = Path(__file__).resolve().parents[3]
+ANALYSIS = ROOT / "02_cancer_evaluation"
 if str(ANALYSIS) not in sys.path:
     sys.path.insert(0, str(ANALYSIS))
 

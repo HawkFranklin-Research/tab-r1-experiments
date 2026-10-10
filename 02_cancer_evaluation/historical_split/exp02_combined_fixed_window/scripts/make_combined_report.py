@@ -3,7 +3,7 @@ from __future__ import annotations
 import sys
 from pathlib import Path
 
-SHARED = Path("/home/prime/Documents/g3/cancer-os-exp/shared/scripts")
+SHARED = Path(__file__).resolve().parents[2] / "shared/scripts"
 if str(SHARED) not in sys.path:
     sys.path.insert(0, str(SHARED))
 
