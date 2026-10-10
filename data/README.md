@@ -25,4 +25,5 @@ SHA-256 of `frozen_test_sets/fold_manifest.csv`:
 
 GitHub working copy: https://github.com/HawkFranklin-Research/tab-r1-experiments
 
-Archived copy: figshare, doi: (added after deposit).
+Archived copy: figshare, doi: 10.6084/m9.figshare.34332477
+(reserved; the item is intended for publication when the manuscript is accepted).

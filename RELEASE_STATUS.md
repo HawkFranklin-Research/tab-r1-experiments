@@ -35,4 +35,8 @@ model/source clones. Historical inputs are included in the data release.
 
 The analysis Dockerfile is a rebuild recipe, not a completed Code Ocean capsule.
 Original repository visibility is unchanged.
-Archived copy: figshare, doi: (added after deposit).
+Archived copy: figshare, doi: 10.6084/m9.figshare.34332477
+(reserved; the item remains private until the owner authorizes publication).
+All three archives and the README were uploaded and their sizes and MD5 checksums
+verified. CC BY 4.0 was approved by the owner. The editor-only reviewer link is
+held outside the public repository. No publication endpoint was called.

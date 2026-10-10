@@ -14,7 +14,9 @@ These artifacts are included in the GitHub working copy. See `data/README.md`
 for layout, provenance and checksum information. Hugging Face is not a release
 destination, and its old dataset is not modified.
 
-Archived copy: figshare, doi: (added after deposit).
+Archived copy: figshare, doi: 10.6084/m9.figshare.34332477
+(reserved; the private item is intended for publication when the manuscript is accepted).
+The editor-only reviewer link is not included in this public repository.
 
 Raw preprocessing expects a project root with `tcga-5` and `cptac-5` downloads;
 its documentation describes the inputs and sparse `train_ready` outputs.
